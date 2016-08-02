@@ -1,0 +1,1943 @@
+# InvariantPolicy = Arguments
+# TerminationPolicy = always
+# SeparationPolicy = None
+# AnnotationPolicy = None
+# AbstractDomain = None
+
+predicate Non_null_StringM{Here}(StringM[0..] x) =
+(\offset_max(x) >= -1)
+
+predicate Non_null_charM{Here}(charM[0..] x) =
+(\offset_max(x) >= -1)
+
+predicate Non_null_doubleM{Here}(doubleM[0..] x) =
+(\offset_max(x) >= -1)
+
+predicate Non_null_byteM{Here}(byteM[0..] x) =
+(\offset_max(x) >= -1)
+
+predicate Non_null_DeterrenceM{Here}(DeterrenceM[0..] x) =
+(\offset_max(x) >= -1)
+
+predicate Non_null_intM{Here}(intM[0..] x) =
+(\offset_max(x) >= -1)
+
+predicate Non_null_Object{Here}(Object[0..] x) =
+(\offset_max(x) >= 0)
+
+logic integer String_serialVersionUID =
+-6849794470754667710
+
+logic integer Deterrence_numStates =
+100
+
+logic integer Deterrence_turnLength =
+100
+
+logic integer Deterrence_numTurns =
+10000
+
+axiomatic mutateProbability_theory {
+
+  logic real Deterrence_mutateProbability 
+  
+}
+
+axiomatic INITIAL_VALUE_theory {
+
+  logic real Deterrence_INITIAL_VALUE 
+  
+}
+
+logic integer Deterrence_ATTACK_TYPES =
+10
+
+axiomatic DEFENDER_COST_theory {
+
+  logic real Deterrence_DEFENDER_COST 
+  
+}
+
+axiomatic RETALIATION_COST_theory {
+
+  logic real Deterrence_RETALIATION_COST 
+  
+}
+
+axiomatic RETALIATION_EFFECT_theory {
+
+  logic real Deterrence_RETALIATION_EFFECT 
+  
+}
+
+axiomatic in_theory {
+
+  logic InputStream[0..] System_in 
+  
+}
+
+axiomatic out_theory {
+
+  logic PrintStream[0..] System_out 
+  
+}
+
+axiomatic err_theory {
+
+  logic PrintStream[0..] System_err 
+  
+}
+
+String[0..] any_string()
+;
+
+tag String = Object with {
+  charM[0..] value; 
+  integer offset; 
+  integer count; 
+  integer hash;
+}
+
+tag InputStream = Object with {
+}
+
+tag OutputStream = Object with {
+}
+
+tag Deterrence = Object with {
+  integer index; 
+  real value; 
+  intM[0..] numIgnores; 
+  intM[0..] numRetaliates; 
+  doubleM[0..] retaliationTable;
+  invariant me_valid(this) =
+    state_valid{Here}(Deterrence_states, this, this.index); 
+  invariant attribution_valid(this) =
+    ((0.0 <= Deterrence_ATTRIBUTION_PROBABILITY) &&
+      (Deterrence_ATTRIBUTION_PROBABILITY <= 1.0)); 
+  invariant irrational_valid(this) =
+    ((0.0 <= Deterrence_IRRATIONAL_PROBABILITY) &&
+      (Deterrence_IRRATIONAL_PROBABILITY <= 1.0));
+}
+
+tag System = Object with {
+}
+
+tag FilterOutputStream = OutputStream with {
+  OutputStream[0..] out;
+}
+
+tag OutputStreamWriter = Object with {
+}
+
+tag Throwable = Object with {
+}
+
+tag Object = {
+}
+
+tag PrintStream = FilterOutputStream with {
+  boolean autoFlush; 
+  boolean trouble; 
+  boolean closing;
+}
+
+tag StringBuffer = Object with {
+}
+
+tag Exception = Object with {
+}
+
+type Object = [Object]
+
+type interface = [interface]
+
+tag interface = {
+}
+
+tag StringM = Object with {
+  String[0..] StringP;
+}
+
+tag charM = Object with {
+  integer charP;
+}
+
+tag doubleM = Object with {
+  real doubleP;
+}
+
+tag byteM = Object with {
+  integer byteP;
+}
+
+tag DeterrenceM = Object with {
+  Deterrence[0..] DeterrenceP;
+}
+
+tag intM = Object with {
+  integer intP;
+}
+
+boolean non_null_StringM(! StringM[0..] x)
+behavior default:
+  assigns \nothing;
+  ensures (if \result then (\offset_max(x) >= -1) else (x == null));
+;
+
+integer java_array_length_StringM(! StringM[0..-1] x)
+behavior default:
+  assigns \nothing;
+  ensures ((\result <= 2147483647) &&
+            ((\result >= 0) && (\result == (\offset_max(x) + 1))));
+;
+
+boolean non_null_charM(! charM[0..] x)
+behavior default:
+  assigns \nothing;
+  ensures (if \result then (\offset_max(x) >= -1) else (x == null));
+;
+
+integer java_array_length_charM(! charM[0..-1] x)
+behavior default:
+  assigns \nothing;
+  ensures ((\result <= 2147483647) &&
+            ((\result >= 0) && (\result == (\offset_max(x) + 1))));
+;
+
+boolean non_null_doubleM(! doubleM[0..] x)
+behavior default:
+  assigns \nothing;
+  ensures (if \result then (\offset_max(x) >= -1) else (x == null));
+;
+
+integer java_array_length_doubleM(! doubleM[0..-1] x)
+behavior default:
+  assigns \nothing;
+  ensures ((\result <= 2147483647) &&
+            ((\result >= 0) && (\result == (\offset_max(x) + 1))));
+;
+
+boolean non_null_byteM(! byteM[0..] x)
+behavior default:
+  assigns \nothing;
+  ensures (if \result then (\offset_max(x) >= -1) else (x == null));
+;
+
+integer java_array_length_byteM(! byteM[0..-1] x)
+behavior default:
+  assigns \nothing;
+  ensures ((\result <= 2147483647) &&
+            ((\result >= 0) && (\result == (\offset_max(x) + 1))));
+;
+
+boolean non_null_DeterrenceM(! DeterrenceM[0..] x)
+behavior default:
+  assigns \nothing;
+  ensures (if \result then (\offset_max(x) >= -1) else (x == null));
+;
+
+integer java_array_length_DeterrenceM(! DeterrenceM[0..-1] x)
+behavior default:
+  assigns \nothing;
+  ensures ((\result <= 2147483647) &&
+            ((\result >= 0) && (\result == (\offset_max(x) + 1))));
+;
+
+boolean non_null_intM(! intM[0..] x)
+behavior default:
+  assigns \nothing;
+  ensures (if \result then (\offset_max(x) >= -1) else (x == null));
+;
+
+integer java_array_length_intM(! intM[0..-1] x)
+behavior default:
+  assigns \nothing;
+  ensures ((\result <= 2147483647) &&
+            ((\result >= 0) && (\result == (\offset_max(x) + 1))));
+;
+
+DeterrenceM[0..] Deterrence_states;
+
+real Deterrence_IRRATIONAL_PROBABILITY;
+
+real Deterrence_ATTRIBUTION_PROBABILITY;
+
+boolean non_null_Object(! Object[0..] x)
+behavior normal:
+  ensures (if \result then (\offset_max(x) == 0) else (x == null));
+;
+
+predicate states_initialised{L}(DeterrenceM[0..] states) =
+(((\offset_max(states) + 1) == Deterrence_numStates) && (! \fresh(states)))
+
+predicate state_valid{L}(DeterrenceM[0..] states_0, Deterrence[0..] state,
+                         integer index) =
+((((((((((((! \fresh(state)) &&
+            ((states_0 + state.index).DeterrenceP == state)) &&
+           (state.index == index)) &&
+          (! \fresh(state.numIgnores))) &&
+         ((\offset_max(state.numIgnores) + 1) == Deterrence_ATTACK_TYPES)) &&
+        (\forall integer j;
+          (((j >= 0) && (j < Deterrence_ATTACK_TYPES)) ==>
+            ((state.numIgnores + j).intP >= 1)))) &&
+       (! \fresh(state.numRetaliates))) &&
+      ((\offset_max(state.numRetaliates) + 1) == Deterrence_ATTACK_TYPES)) &&
+     (\forall integer j_0;
+       (((j_0 >= 0) && (j_0 < Deterrence_ATTACK_TYPES)) ==>
+         ((state.numRetaliates + j_0).intP >= 1)))) &&
+    (! \fresh(state.retaliationTable))) &&
+   ((\offset_max(state.retaliationTable) + 1) == Deterrence_ATTACK_TYPES)) &&
+  (\forall integer j_1;
+    (((j_1 >= 0) && (j_1 < Deterrence_ATTACK_TYPES)) ==>
+      ((0.0 <= (state.retaliationTable + j_1).doubleP) &&
+        ((state.retaliationTable + j_1).doubleP < 1.0)))))
+
+predicate states_valid_up_to{L}(DeterrenceM[0..] states_1, integer k) =
+((\forall integer i;
+   (((i >= 0) && (i < k)) ==> ((states_1 + i).DeterrenceP.index == i))) &&
+  (\forall integer i_0;
+    (((i_0 >= 0) && (i_0 < k)) ==>
+      state_valid{L}(states_1, (states_1 + i_0).DeterrenceP, i_0))))
+
+predicate states_valid{L}(DeterrenceM[0..] states_2) =
+((((((\offset_max(states_2) + 1) == Deterrence_numStates) &&
+     (! \fresh(states_2))) &&
+    (\forall integer i_1;
+      (\forall integer j_2;
+        ((((((i_1 >= 0) && (i_1 < Deterrence_numStates)) && (j_2 >= 0)) &&
+            (j_2 < Deterrence_numStates)) &&
+           (i_1 != j_2)) ==>
+          ((states_2 + i_1).DeterrenceP != (states_2 + j_2).DeterrenceP))))) &&
+   (\forall integer i_2;
+     (((i_2 >= 0) && (i_2 < Deterrence_numStates)) ==>
+       ((states_2 + i_2).DeterrenceP.index == i_2)))) &&
+  (\forall integer i_3;
+    (((i_3 >= 0) && (i_3 < Deterrence_numStates)) ==>
+      state_valid{L}(states_2, (states_2 + i_3).DeterrenceP, i_3))))
+
+logic integer attackStrength_logic(integer intensity_1) =
+(intensity_1 + 1)
+
+logic real expectedValue_logic(integer intensity_2, integer numIgnores,
+                               integer numRetaliates,
+                               real ATTRIBUTION_PROBABILITY_0,
+                               real RETALIATION_EFFECT) =
+((attackStrength_logic(intensity_2) *
+   (numIgnores +
+     (numRetaliates *
+       ((1.0 - ATTRIBUTION_PROBABILITY_0) -
+         (RETALIATION_EFFECT * ATTRIBUTION_PROBABILITY_0))))) /
+  (numIgnores + numRetaliates))
+
+exception Exception of Exception[0..]
+
+exception Throwable of Throwable[0..]
+
+integer Deterrence_nextInt(integer a)
+  requires (K_4 : (a > 0));
+behavior default:
+  assigns \nothing;
+  ensures (K_3 : ((K_2 : (\result >= 0)) && (K_1 : (\result < a))));
+{  
+   (return (K_5 : (a - 1)))
+}
+
+unit System_setErr(PrintStream[0..] err)
+;
+
+unit PrintStream_println_Object(PrintStream[0] this_11, Object[0..] x_8)
+;
+
+unit OutputStream_write_byteA_int_int(OutputStream[0] this_12,
+                                      byteM[0..] b_3, integer off,
+                                      integer len)
+;
+
+integer String_compareTo_String(String[0] this_13,
+                                String[0..] anotherString_0)
+;
+
+String[0..] System_setProperty(String[0..] key_1, String[0..] value)
+;
+
+unit System_load(String[0..] filename)
+;
+
+integer Deterrence_attackStrength(integer intensity)
+  requires (K_9 : ((K_8 : (0 <= intensity)) &&
+                    (K_7 : (intensity < Deterrence_ATTACK_TYPES))));
+behavior default:
+  assigns \nothing;
+  ensures (K_6 : (\result == attackStrength_logic(intensity)));
+{  
+   (return (K_10 : (intensity + 1)))
+}
+
+integer Object_hashCode(Object[0] this_14)
+;
+
+unit PrintStream_println_double(PrintStream[0] this_15, real x_5)
+;
+
+unit PrintStream_write_String(PrintStream[0] this_16, String[0..] s_0)
+;
+
+PrintStream[0..] System_nullPrintStream()
+;
+
+unit cons_OutputStream(! OutputStream[0] this_108){()}
+
+StringM[0..] String_split_String_int(String[0] this_17, String[0..] regex_2,
+                                     integer limit)
+;
+
+integer String_indexOf_int_int(String[0] this_18, integer ch_0,
+                               integer fromIndex)
+;
+
+real Deterrence_expectedValue(integer intensity_0, Deterrence[0..] target)
+  requires (K_20 : ((K_19 : ((K_18 : ((K_17 : (0 <= intensity_0)) &&
+                                       (K_16 : (intensity_0 <
+                                                 Deterrence_ATTACK_TYPES)))) &&
+                              (K_15 : (! \fresh(target))))) &&
+                     (K_14 : (Deterrence_RETALIATION_EFFECT >= 0.0))));
+behavior default:
+  assigns \nothing;
+  ensures (K_13 : ((K_12 : (\result <= attackStrength_logic(intensity_0))) &&
+                    (K_11 : (\result ==
+                              expectedValue_logic(intensity_0,
+                                                  (target.numIgnores +
+                                                    intensity_0).intP,
+                                                  (target.numRetaliates +
+                                                    intensity_0).intP,
+                                                  Deterrence_ATTRIBUTION_PROBABILITY,
+                                                  Deterrence_RETALIATION_EFFECT)))));
+{  
+   (return (K_37 : ((K_31 : ((K_21 : Deterrence_attackStrength(intensity_0)) *
+                              (K_30 : ((K_23 : ((K_22 : target.numIgnores) +
+                                                 intensity_0).intP) +
+                                        (K_29 : ((K_25 : ((K_24 : target.numRetaliates) +
+                                                           intensity_0).intP) *
+                                                  (K_28 : ((K_26 : (1.0 -
+                                                                    Deterrence_ATTRIBUTION_PROBABILITY)) -
+                                                            (K_27 : (Deterrence_RETALIATION_EFFECT *
+                                                                    Deterrence_ATTRIBUTION_PROBABILITY)))))))))) /
+                     (K_36 : ((K_33 : ((K_32 : target.numIgnores) +
+                                        intensity_0).intP) +
+                               (K_35 : ((K_34 : target.numRetaliates) +
+                                         intensity_0).intP))))))
+}
+
+unit OutputStream_write_byteA(OutputStream[0] this_19, byteM[0..] b_2)
+;
+
+unit cons_String_StringBuffer(! String[0] this_109, StringBuffer[0..] buffer)
+{  (this_109.value = null);
+   (this_109.offset = 0);
+   (this_109.count = 0);
+   (this_109.hash = 0)
+}
+
+unit Object_notify(Object[0] this_20)
+;
+
+String[0..] String_replace(String[0] this_21, integer oldChar,
+                           integer newChar)
+;
+
+unit Object_wait_long_int(Object[0] this_22, integer timeout_0, integer nanos)
+;
+
+unit OutputStream_write(OutputStream[0] this_23, integer b_1)
+;
+
+unit String_getChars(String[0] this_24, integer srcBegin, integer srcEnd,
+                     charM[0..] dst, integer dstBegin)
+;
+
+unit Object_notifyAll(Object[0] this_25)
+;
+
+unit PrintStream_write_byteA_int_int(PrintStream[0] this_26, byteM[0..] buf,
+                                     integer off_1, integer len_1)
+;
+
+String[0..] System_mapLibraryName(String[0..] libname_0)
+;
+
+unit System_runFinalization()
+;
+
+unit cons_String_byteA(! String[0] this_110, byteM[0..] bytes_3)
+{  (this_110.value = null);
+   (this_110.offset = 0);
+   (this_110.count = 0);
+   (this_110.hash = 0)
+}
+
+integer Comparable_compareTo(Object/*interface*/[0..] this_27, Object[0..] o)
+;
+
+unit PrintStream_print_float(PrintStream[0] this_28, real f)
+;
+
+String[0..] String_copyValueOf_charA_int_int(charM[0..] data_1,
+                                             integer offset_6,
+                                             integer count_3)
+;
+
+String[0..] String_valueOf_charA_int_int(charM[0..] data_0, integer offset_5,
+                                         integer count_2)
+;
+
+unit Object_finalize(Object[0] this_29)
+;
+
+Deterrence[0..] Deterrence_getWorst()
+  requires (K_41 : states_valid{Here}(Deterrence_states));
+behavior default:
+  assigns \nothing;
+  ensures (K_40 : ((K_39 : (\forall integer i_18;
+                             (((i_18 >= 0) && (i_18 < Deterrence_numStates)) ==>
+                               ((Deterrence_states + i_18).DeterrenceP.value >=
+                                 \result.value)))) &&
+                    (K_38 : (\exists integer i_19;
+                              (((i_19 >= 0) && (i_19 < Deterrence_numStates)) &&
+                                ((Deterrence_states + i_19).DeterrenceP ==
+                                  \result))))));
+{  
+   {  
+      (var Deterrence[0..] worst_0 = (K_58 : (Deterrence_states + 0).DeterrenceP));
+      
+      {  
+         {  
+            {  
+               (var integer h_1 = (K_42 : 1));
+               
+               loop 
+               behavior default:
+                 invariant (K_49 : ((K_48 : ((K_47 : ((K_46 : (\forall integer j_9;
+                                                                (((j_9 >= 0) &&
+                                                                   (j_9 <
+                                                                    h_1)) ==>
+                                                                  ((Deterrence_states +
+                                                                    j_9).DeterrenceP.value >=
+                                                                    worst_0.value)))) &&
+                                                       (K_45 : (\exists integer k_2;
+                                                                 (((k_2 >= 0) &&
+                                                                    (k_2 <
+                                                                    h_1)) &&
+                                                                   ((Deterrence_states +
+                                                                    k_2).DeterrenceP ==
+                                                                    worst_0)))))) &&
+                                              (K_44 : (h_1 >= 0)))) &&
+                                     (K_43 : (h_1 <= Deterrence_numStates))));
+               
+               variant (K_50 : (Deterrence_numStates - h_1));
+               for ( ; (K_57 : (h_1 < Deterrence_numStates)) ; (K_56 : 
+                                                               (h_1 ++)))
+               {  (if (K_55 : ((K_53 : (K_52 : (Deterrence_states + h_1).DeterrenceP).value) <
+                                (K_54 : worst_0.value))) then (worst_0 = 
+                  (K_51 : (Deterrence_states + h_1).DeterrenceP)) else ())
+               }
+            }
+         };
+         
+         (return worst_0)
+      }
+   }
+}
+
+unit String_getBytes_int_int_byteA_int(String[0] this_30, integer srcBegin_0,
+                                       integer srcEnd_0, byteM[0..] dst_0,
+                                       integer dstBegin_0)
+;
+
+String[0..] Object_toString(Object[0] this_31)
+;
+
+unit OutputStream_flush(OutputStream[0] this_32)
+;
+
+unit cons_FilterOutputStream_OutputStream(! FilterOutputStream[0] this_111,
+                                          OutputStream[0..] out_1)
+{  (this_111.out = null)
+}
+
+unit PrintStream_print_double(PrintStream[0] this_33, real d)
+;
+
+unit PrintStream_write_charA(PrintStream[0] this_34, charM[0..] buf_0)
+;
+
+unit cons_PrintStream_OutputStream(! PrintStream[0] this_112,
+                                   OutputStream[0..] out_2)
+{  (this_112.autoFlush = false);
+   (this_112.trouble = false);
+   (this_112.closing = false)
+}
+
+String[0..] String_concat(String[0] this_35, String[0..] str_4)
+;
+
+String[0..] System_getProperty_String_String(String[0..] key_0,
+                                             String[0..] def)
+;
+
+unit System_setOut0(PrintStream[0..] out_0)
+;
+
+unit PrintStream_print_long(PrintStream[0] this_36, integer l)
+;
+
+Object/*interface*/[0..] String_subSequence(String[0] this_37,
+                                            integer beginIndex_1,
+                                            integer endIndex_0)
+;
+
+integer String_indexOf_String(String[0] this_38, String[0..] str_0)
+;
+
+integer String_compareTo_Object(String[0] this_39, Object[0..] o_0)
+;
+
+String[0..] String_valueOf_float(real f_0)
+;
+
+unit FilterOutputStream_write_int(FilterOutputStream[0] this_40, integer b_4)
+;
+
+boolean String_equals(String[0] this_41, Object[0..] anObject)
+;
+
+unit PrintStream_print_String(PrintStream[0] this_42, String[0..] s_2)
+;
+
+unit cons_String_byteA_String(! String[0] this_113, byteM[0..] bytes_1,
+                              String[0..] charsetName_0)
+{  (this_113.value = null);
+   (this_113.offset = 0);
+   (this_113.count = 0);
+   (this_113.hash = 0)
+}
+
+unit PrintStream_print_charA(PrintStream[0] this_43, charM[0..] s_1)
+;
+
+unit System_runFinalizersOnExit(boolean value_0)
+;
+
+String[0..] String_intern(String[0] this_44)
+;
+
+String[0..] String_valueOf_double(real d_0)
+;
+
+unit PrintStream_println_charA(PrintStream[0] this_45, charM[0..] x_6)
+;
+
+unit PrintStream_ensureOpen(PrintStream[0] this_46)
+;
+
+unit cons_String_byteA_int_int(! String[0] this_114, byteM[0..] bytes_2,
+                               integer offset_3, integer length_2)
+{  (this_114.value = null);
+   (this_114.offset = 0);
+   (this_114.count = 0);
+   (this_114.hash = 0)
+}
+
+integer String_lastIndexOf_int_int(String[0] this_47, integer ch_2,
+                                   integer fromIndex_0)
+;
+
+unit Object_registerNatives()
+;
+
+String[0..] String_toString(String[0] this_48)
+;
+
+boolean PrintStream_checkError(PrintStream[0] this_49)
+;
+
+InputStream[0..] System_nullInputStream()
+;
+
+String[0..] String_trim(String[0] this_50)
+;
+
+String[0..] String_replaceFirst(String[0] this_51, String[0..] regex_0,
+                                String[0..] replacement)
+;
+
+StringM[0..] String_split_String(String[0] this_52, String[0..] regex_3)
+;
+
+String[0..] System_getProperty_String(String[0..] key)
+;
+
+unit cons_String_int_int_charA(! String[0] this_115, integer offset_4,
+                               integer count_1, charM[0..] value_3)
+{  (this_115.value = null);
+   (this_115.offset = 0);
+   (this_115.count = 0);
+   (this_115.hash = 0)
+}
+
+integer String_lastIndexOf_int(String[0] this_53, integer ch_1)
+;
+
+integer String_lastIndexOf_charA_int_int_charA_int_int_int(charM[0..] source_0,
+                                                           integer sourceOffset_0,
+                                                           integer sourceCount_0,
+                                                           charM[0..] target_2,
+                                                           integer targetOffset_0,
+                                                           integer targetCount_0,
+                                                           integer fromIndex_4)
+;
+
+integer String_lastIndexOf_String(String[0] this_54, String[0..] str_2)
+;
+
+Deterrence[0..] Deterrence_getBest()
+  requires (K_62 : states_valid{Here}(Deterrence_states));
+behavior default:
+  assigns \nothing;
+  ensures (K_61 : ((K_60 : (\forall integer i_16;
+                             (((i_16 >= 0) && (i_16 < Deterrence_numStates)) ==>
+                               ((Deterrence_states + i_16).DeterrenceP.value <=
+                                 \result.value)))) &&
+                    (K_59 : (\exists integer i_17;
+                              (((i_17 >= 0) && (i_17 < Deterrence_numStates)) &&
+                                ((Deterrence_states + i_17).DeterrenceP ==
+                                  \result))))));
+{  
+   {  
+      (var Deterrence[0..] best_1 = (K_79 : (Deterrence_states + 0).DeterrenceP));
+      
+      {  
+         {  
+            {  
+               (var integer h_0 = (K_63 : 1));
+               
+               loop 
+               behavior default:
+                 invariant (K_70 : ((K_69 : ((K_68 : ((K_67 : (\forall integer j_8;
+                                                                (((j_8 >= 0) &&
+                                                                   (j_8 <
+                                                                    h_0)) ==>
+                                                                  ((Deterrence_states +
+                                                                    j_8).DeterrenceP.value <=
+                                                                    best_1.value)))) &&
+                                                       (K_66 : (\exists integer k_1;
+                                                                 (((k_1 >= 0) &&
+                                                                    (k_1 <
+                                                                    h_0)) &&
+                                                                   ((Deterrence_states +
+                                                                    k_1).DeterrenceP ==
+                                                                    best_1)))))) &&
+                                              (K_65 : (h_0 >= 0)))) &&
+                                     (K_64 : (h_0 <= Deterrence_numStates))));
+               
+               variant (K_71 : (Deterrence_numStates - h_0));
+               for ( ; (K_78 : (h_0 < Deterrence_numStates)) ; (K_77 : 
+                                                               (h_0 ++)))
+               {  (if (K_76 : ((K_74 : (K_73 : (Deterrence_states + h_0).DeterrenceP).value) >
+                                (K_75 : best_1.value))) then (best_1 = 
+                  (K_72 : (Deterrence_states + h_0).DeterrenceP)) else ())
+               }
+            }
+         };
+         
+         (return best_1)
+      }
+   }
+}
+
+String[0..] String_toLowerCase(String[0] this_55)
+;
+
+String[0..] String_valueOf_charA(charM[0..] data)
+;
+
+String[0..] String_valueOf_boolean(boolean b_9)
+;
+
+unit PrintStream_flush(PrintStream[0] this_56)
+;
+
+boolean String_matches(String[0] this_57, String[0..] regex)
+;
+
+unit PrintStream_close(PrintStream[0] this_58)
+;
+
+unit String_checkBounds(byteM[0..] bytes, integer offset_1, integer length_0)
+;
+
+boolean String_startsWith_String(String[0] this_59, String[0..] prefix_0)
+;
+
+integer String_length(String[0] this_60)
+;
+
+unit PrintStream_init(PrintStream[0] this_61, OutputStreamWriter[0..] osw)
+;
+
+unit PrintStream_newLine(PrintStream[0] this_62)
+;
+
+unit System_initializeSystemClass()
+;
+
+Object[0..] Object_clone(Object[0] this_63)
+;
+
+unit System_registerNatives()
+;
+
+unit System_gc()
+;
+
+unit System_setOut(PrintStream[0..] out)
+;
+
+integer String_lastIndexOf(String[0] this_64, String[0..] str_3,
+                           integer fromIndex_3)
+;
+
+boolean String_equalsIgnoreCase(String[0] this_65, String[0..] anotherString)
+;
+
+String[0..] String_substring_int_int(String[0] this_66, integer beginIndex_0,
+                                     integer endIndex)
+;
+
+unit cons_String_charA_int_int(! String[0] this_116, charM[0..] value_2,
+                               integer offset, integer count)
+{  (this_116.value = null);
+   (this_116.offset = 0);
+   (this_116.count = 0);
+   (this_116.hash = 0)
+}
+
+unit FilterOutputStream_flush(FilterOutputStream[0] this_67)
+;
+
+real Deterrence_nextDouble()
+behavior default:
+  assigns \nothing;
+  ensures (K_82 : ((K_81 : (\result >= 0.0)) && (K_80 : (\result < 1.0))));
+{  
+   (return (K_83 : (1.0 / 10.0)))
+}
+
+integer Deterrence_highestExpectedValue(Deterrence[0] this_8,
+                                        Deterrence[0..] target_0)
+  requires (K_93 : ((K_92 : (! \fresh(target_0))) &&
+                     (K_91 : (Deterrence_RETALIATION_EFFECT >= 0.0))));
+behavior default:
+  assigns \nothing;
+  ensures (K_90 : ((K_89 : ((K_88 : ((K_87 : (0 <= \result)) &&
+                                      (K_86 : (\result <
+                                                Deterrence_ATTACK_TYPES)))) &&
+                             (K_85 : (\forall integer i_13;
+                                       (((i_13 >= 0) &&
+                                          (i_13 < Deterrence_ATTACK_TYPES)) ==>
+                                         (expectedValue_logic(i_13,
+                                                              (target_0.numIgnores +
+                                                                i_13).intP,
+                                                              (target_0.numRetaliates +
+                                                                i_13).intP,
+                                                              Deterrence_ATTRIBUTION_PROBABILITY,
+                                                              Deterrence_RETALIATION_EFFECT) <=
+                                           expectedValue_logic(\result,
+                                                               (target_0.numIgnores +
+                                                                 \result).intP,
+                                                               (target_0.numRetaliates +
+                                                                 \result).intP,
+                                                               Deterrence_ATTRIBUTION_PROBABILITY,
+                                                               Deterrence_RETALIATION_EFFECT))))))) &&
+                    (K_84 : (\exists integer i_14;
+                              (((i_14 >= 0) &&
+                                 (i_14 < Deterrence_ATTACK_TYPES)) &&
+                                (expectedValue_logic(i_14,
+                                                     (target_0.numIgnores +
+                                                       i_14).intP,
+                                                     (target_0.numRetaliates +
+                                                       i_14).intP,
+                                                     Deterrence_ATTRIBUTION_PROBABILITY,
+                                                     Deterrence_RETALIATION_EFFECT) ==
+                                  expectedValue_logic(\result,
+                                                      (target_0.numIgnores +
+                                                        \result).intP,
+                                                      (target_0.numRetaliates +
+                                                        \result).intP,
+                                                      Deterrence_ATTRIBUTION_PROBABILITY,
+                                                      Deterrence_RETALIATION_EFFECT)))))));
+{  
+   {  
+      (var integer best_0 = (K_112 : 0));
+      
+      {  
+         {  
+            {  
+               (var integer h = (K_94 : 1));
+               
+               loop 
+               behavior default:
+                 invariant (K_105 : ((K_104 : ((K_103 : ((K_102 : ((K_101 : 
+                                                                   ((K_100 : 
+                                                                    (\forall integer j_4;
+                                                                    (((j_4 >=
+                                                                    0) &&
+                                                                    (j_4 < h)) ==>
+                                                                    (expectedValue_logic(
+                                                                    j_4,
+                                                                    (target_0.numIgnores +
+                                                                    j_4).intP,
+                                                                    (target_0.numRetaliates +
+                                                                    j_4).intP,
+                                                                    Deterrence_ATTRIBUTION_PROBABILITY,
+                                                                    Deterrence_RETALIATION_EFFECT) <=
+                                                                    expectedValue_logic(
+                                                                    best_0,
+                                                                    (target_0.numIgnores +
+                                                                    best_0).intP,
+                                                                    (target_0.numRetaliates +
+                                                                    best_0).intP,
+                                                                    Deterrence_ATTRIBUTION_PROBABILITY,
+                                                                    Deterrence_RETALIATION_EFFECT))))) &&
+                                                                    (K_99 : 
+                                                                    (\exists integer k_0;
+                                                                    (((k_0 >=
+                                                                    0) &&
+                                                                    (k_0 < h)) &&
+                                                                    (expectedValue_logic(
+                                                                    k_0,
+                                                                    (target_0.numIgnores +
+                                                                    k_0).intP,
+                                                                    (target_0.numRetaliates +
+                                                                    k_0).intP,
+                                                                    Deterrence_ATTRIBUTION_PROBABILITY,
+                                                                    Deterrence_RETALIATION_EFFECT) ==
+                                                                    expectedValue_logic(
+                                                                    best_0,
+                                                                    (target_0.numIgnores +
+                                                                    best_0).intP,
+                                                                    (target_0.numRetaliates +
+                                                                    best_0).intP,
+                                                                    Deterrence_ATTRIBUTION_PROBABILITY,
+                                                                    Deterrence_RETALIATION_EFFECT))))))) &&
+                                                                    (K_98 : 
+                                                                    (h >=
+                                                                    0)))) &&
+                                                          (K_97 : (h <=
+                                                                    Deterrence_ATTACK_TYPES)))) &&
+                                                (K_96 : (best_0 >= 0)))) &&
+                                      (K_95 : (best_0 <
+                                                Deterrence_ATTACK_TYPES))));
+               
+               variant (K_106 : (Deterrence_ATTACK_TYPES - h));
+               for ( ; (K_111 : (h < Deterrence_ATTACK_TYPES)) ; (K_110 : 
+                                                                 (h ++)))
+               {  (if (K_109 : ((K_107 : Deterrence_expectedValue(h, target_0)) >
+                                 (K_108 : Deterrence_expectedValue(best_0,
+                                                                   target_0)))) then (best_0 = h) else ())
+               }
+            }
+         };
+         
+         (return best_0)
+      }
+   }
+}
+
+Deterrence[0..] Deterrence_chooseOpponent(Deterrence[0] this_7)
+  requires (K_118 : states_valid{Here}(Deterrence_states));
+behavior default:
+  assigns \nothing;
+  ensures (K_117 : ((K_116 : ((K_115 : (\result != this_7)) &&
+                               (K_114 : ((Deterrence_states + \result.index).DeterrenceP ==
+                                          \result)))) &&
+                     (K_113 : state_valid{Here}(Deterrence_states, \result,
+                                                \result.index))));
+{  
+   {  
+      (var integer choice = (K_127 : Deterrence_nextInt((K_126 : ((K_125 : java_array_length_DeterrenceM(
+                                                                  Deterrence_states)) -
+                                                                   1)))));
+      
+      {  (K_120 : 
+         (assert (K_119 : ((Deterrence_states + this_7.index).DeterrenceP ==
+                            this_7))));
+         (if (K_123 : (choice >= (K_122 : this_7.index))) then (K_121 : 
+                                                               (choice ++)) else ());
+         
+         (return (K_124 : (Deterrence_states + choice).DeterrenceP))
+      }
+   }
+}
+
+unit Deterrence_move(Deterrence[0] this_6)
+  requires (K_131 : ((K_130 : states_valid{Here}(Deterrence_states)) &&
+                      (K_129 : (Deterrence_RETALIATION_EFFECT >= 0.0))));
+behavior default:
+  ensures (K_128 : states_valid{Here}(Deterrence_states));
+{  
+   {  
+      (var Deterrence[0..] defender = (K_165 : Deterrence_chooseOpponent(
+                                      this_6)));
+      
+      {  
+         (var integer intensity_3);
+         
+         {  (if (K_135 : ((K_134 : Deterrence_nextDouble()) <
+                           Deterrence_IRRATIONAL_PROBABILITY)) then (intensity_3 = 
+            (K_133 : Deterrence_nextInt(Deterrence_ATTACK_TYPES))) else (intensity_3 = 
+            (K_132 : Deterrence_highestExpectedValue(this_6, defender))));
+            (K_139 : 
+            (assert (K_138 : ((K_137 : (0 <= intensity_3)) &&
+                               (K_136 : (intensity_3 <
+                                          Deterrence_ATTACK_TYPES))))));
+            (if (K_164 : ((K_161 : Deterrence_nextDouble()) <
+                           (K_163 : ((K_162 : defender.retaliationTable) +
+                                      intensity_3).doubleP))) then (if 
+                                                                   (K_160 : 
+                                                                   ((K_159 : Deterrence_nextDouble(
+                                                                    )) <
+                                                                    Deterrence_ATTRIBUTION_PROBABILITY)) then 
+                                                                   {  (K_154 : this_6.value -= 
+                                                                    (K_153 : 
+                                                                    ((K_152 : Deterrence_attackStrength(
+                                                                    intensity_3)) *
+                                                                    Deterrence_RETALIATION_EFFECT)));
+                                                                    (K_157 : defender.value -= 
+                                                                    (K_156 : 
+                                                                    ((K_155 : Deterrence_attackStrength(
+                                                                    intensity_3)) *
+                                                                    Deterrence_RETALIATION_COST)));
+                                                                    (
+                                                                    ((K_158 : defender.numRetaliates) +
+                                                                    intensity_3).intP ++)
+                                                                   } else 
+                                                                   {  (K_147 : this_6.value += 
+                                                                    (K_146 : Deterrence_attackStrength(
+                                                                    intensity_3)));
+                                                                    (K_150 : defender.value -= 
+                                                                    (K_149 : 
+                                                                    ((K_148 : Deterrence_attackStrength(
+                                                                    intensity_3)) *
+                                                                    Deterrence_RETALIATION_COST)));
+                                                                    (
+                                                                    ((K_151 : defender.numRetaliates) +
+                                                                    intensity_3).intP ++)
+                                                                   }) else 
+            {  (K_141 : this_6.value += (K_140 : Deterrence_attackStrength(
+                                        intensity_3)));
+               (K_144 : defender.value -= (K_143 : ((K_142 : Deterrence_attackStrength(
+                                                    intensity_3)) *
+                                                     Deterrence_DEFENDER_COST)));
+               (((K_145 : defender.numIgnores) + intensity_3).intP ++)
+            })
+         }
+      }
+   }
+}
+
+unit PrintStream_write_int(PrintStream[0] this_68, integer b_7)
+;
+
+integer String_indexOf_int(String[0] this_69, integer ch)
+;
+
+real Deterrence_choice(real a_0, real b)
+behavior default:
+  assigns \nothing;
+  ensures (K_166 : ((\result == a_0) || (\result == b)));
+{  (if (K_168 : ((K_167 : Deterrence_nextDouble()) < 0.5)) then 
+   (return a_0) else 
+   (return b))
+}
+
+real Deterrence_mutate(real val, real mutated)
+behavior default:
+  assigns \nothing;
+  ensures (K_169 : ((\result == val) || (\result == mutated)));
+{  (if (K_171 : ((K_170 : Deterrence_nextDouble()) <
+                  Deterrence_mutateProbability)) then 
+   (return mutated) else 
+   (return val))
+}
+
+unit Deterrence_initialiseOffspring(Deterrence[0] this_9,
+                                    Deterrence[0..] a_1, Deterrence[0..] b_0)
+  requires (K_175 : ((K_174 : (! \fresh(a_1))) && (K_173 : (! \fresh(b_0)))));
+behavior default:
+  assigns (this_9.retaliationTable +
+            [0..((\offset_max(this_9.retaliationTable) + 1) - 1)]).doubleP,
+  this_9.value;
+  ensures (K_172 : (this_9.value == Deterrence_INITIAL_VALUE));
+{  (K_176 : (this_9.value = Deterrence_INITIAL_VALUE));
+   
+   {  
+      {  
+         (var integer i_15 = (K_177 : 0));
+         
+         loop 
+         behavior default:
+           invariant (K_186 : ((K_185 : ((K_184 : ((K_183 : ((K_182 : 
+                                                             (i_15 >=
+                                                               0)) &&
+                                                              (K_181 : 
+                                                              (i_15 <=
+                                                                Deterrence_ATTACK_TYPES)))) &&
+                                                    (K_180 : (\forall integer j_5;
+                                                               (((j_5 >= 0) &&
+                                                                  (j_5 <
+                                                                    Deterrence_ATTACK_TYPES)) ==>
+                                                                 ((0.0 <=
+                                                                    (this_9.retaliationTable +
+                                                                    j_5).doubleP) &&
+                                                                   ((this_9.retaliationTable +
+                                                                    j_5).doubleP <
+                                                                    1.0))))))) &&
+                                          (K_179 : (\forall integer j_6;
+                                                     (((j_6 >= 0) &&
+                                                        (j_6 <
+                                                          Deterrence_ATTACK_TYPES)) ==>
+                                                       ((0.0 <=
+                                                          (a_1.retaliationTable +
+                                                            j_6).doubleP) &&
+                                                         ((a_1.retaliationTable +
+                                                            j_6).doubleP <
+                                                           1.0))))))) &&
+                                (K_178 : (\forall integer j_7;
+                                           (((j_7 >= 0) &&
+                                              (j_7 < Deterrence_ATTACK_TYPES)) ==>
+                                             ((0.0 <=
+                                                (b_0.retaliationTable + j_7).doubleP) &&
+                                               ((b_0.retaliationTable + j_7).doubleP <
+                                                 1.0)))))));
+         
+         variant (K_187 : (Deterrence_ATTACK_TYPES - i_15));
+         for ( ; (K_198 : (i_15 < Deterrence_ATTACK_TYPES)) ; (K_197 : 
+                                                              (i_15 ++)))
+         {  (K_196 : (((K_188 : this_9.retaliationTable) + i_15).doubleP = 
+            (K_195 : Deterrence_mutate((K_193 : Deterrence_choice((K_190 : 
+                                                                  ((K_189 : a_1.retaliationTable) +
+                                                                    i_15).doubleP),
+                                                                  (K_192 : 
+                                                                  ((K_191 : b_0.retaliationTable) +
+                                                                    i_15).doubleP))),
+                                       (K_194 : Deterrence_nextDouble())))))
+         }
+      }
+   }
+}
+
+unit cons_String_String(! String[0] this_117, String[0..] original)
+{  (this_117.value = null);
+   (this_117.offset = 0);
+   (this_117.count = 0);
+   (this_117.hash = 0)
+}
+
+unit cons_Object(! Object[0] this_118){()}
+
+integer System_identityHashCode(Object[0..] x)
+;
+
+integer CharSequence_length(Object/*interface*/[0..] this_70)
+;
+
+unit PrintStream_println_String(PrintStream[0] this_71, String[0..] x_7)
+;
+
+byteM[0..] String_getBytes(String[0] this_72)
+;
+
+unit cons_PrintStream_OutputStream_boolean_String(! PrintStream[0] this_119,
+                                                  OutputStream[0..] out_5,
+                                                  boolean autoFlush_1,
+                                                  String[0..] encoding)
+{  (this_119.autoFlush = false);
+   (this_119.trouble = false);
+   (this_119.closing = false)
+}
+
+String[0..] String_toUpperCase(String[0] this_73)
+;
+
+unit PrintStream_print_boolean(PrintStream[0] this_74, boolean b_8)
+;
+
+boolean String_startsWith_String_int(String[0] this_75, String[0..] prefix,
+                                     integer toffset_1)
+;
+
+unit PrintStream_print_Object(PrintStream[0] this_76, Object[0..] obj)
+;
+
+unit System_loadLibrary(String[0..] libname)
+;
+
+String[0..] String_valueOf_int(integer i_9)
+;
+
+unit cons_String_byteA_int(! String[0] this_120, byteM[0..] ascii_0,
+                           integer hibyte_0)
+{  (this_120.value = null);
+   (this_120.offset = 0);
+   (this_120.count = 0);
+   (this_120.hash = 0)
+}
+
+unit Object_wait_long(Object[0] this_77, integer timeout)
+;
+
+unit System_checkIO()
+;
+
+real Deterrence_getLargestAverage()
+  requires (K_200 : states_valid{Here}(Deterrence_states));
+behavior default:
+  assigns \nothing;
+  ensures (K_199 : true);
+{  
+   {  
+      (var doubleM[0..] averages = (K_246 : (new doubleM[Deterrence_ATTACK_TYPES])));
+      
+      {  
+         {  
+            {  
+               (var integer i_4 = (K_201 : 0));
+               
+               loop 
+               behavior default:
+                 invariant (K_204 : ((K_203 : (i_4 >= 0)) &&
+                                      (K_202 : (i_4 <=
+                                                 Deterrence_ATTACK_TYPES))));
+               
+               variant (K_205 : (Deterrence_ATTACK_TYPES - i_4));
+               for ( ; (K_208 : (i_4 < Deterrence_ATTACK_TYPES)) ; (K_207 : 
+                                                                   (i_4 ++)))
+               {  (K_206 : ((averages + i_4).doubleP = 0.0))
+               }
+            }
+         };
+         
+         {  
+            {  
+               (var integer s = (K_209 : 0));
+               
+               loop 
+               behavior default:
+                 invariant (K_212 : ((K_211 : (s >= 0)) &&
+                                      (K_210 : (s <= Deterrence_numStates))));
+               
+               variant (K_213 : (Deterrence_numStates - s));
+               for ( ; (K_227 : (s < Deterrence_numStates)) ; (K_226 : 
+                                                              (s ++)))
+               {  
+                  {  
+                     (var Deterrence[0..] state_0 = (K_225 : (Deterrence_states +
+                                                               s).DeterrenceP));
+                     
+                     {  
+                        {  
+                           (var integer i_5 = (K_214 : 0));
+                           
+                           loop 
+                           behavior default:
+                             invariant (K_219 : ((K_218 : ((K_217 : (i_5 >=
+                                                                    0)) &&
+                                                            (K_216 : 
+                                                            (i_5 <=
+                                                              Deterrence_ATTACK_TYPES)))) &&
+                                                  (K_215 : (! \fresh(state_0)))));
+                           
+                           variant (K_220 : (Deterrence_ATTACK_TYPES - i_5));
+                           for ( ; (K_224 : (i_5 < Deterrence_ATTACK_TYPES)) ; 
+                           (K_223 : (i_5 ++)))
+                           {  (averages + i_5).doubleP += (K_222 : ((K_221 : state_0.retaliationTable) +
+                                                                    i_5).doubleP)
+                           }
+                        }
+                     }
+                  }
+               }
+            }
+         };
+         
+         {  
+            {  
+               (var integer i_6 = (K_228 : 0));
+               
+               loop 
+               behavior default:
+                 invariant (K_231 : ((K_230 : (i_6 >= 0)) &&
+                                      (K_229 : (i_6 <=
+                                                 Deterrence_ATTACK_TYPES))));
+               
+               variant (K_232 : (Deterrence_ATTACK_TYPES - i_6));
+               for ( ; (K_234 : (i_6 < Deterrence_ATTACK_TYPES)) ; (K_233 : 
+                                                                   (i_6 ++)))
+               {  (averages + i_6).doubleP /= Deterrence_numStates
+               }
+            }
+         };
+         
+         {  
+            (var real largest = (K_245 : (averages + 0).doubleP));
+            
+            {  
+               {  
+                  {  
+                     (var integer i_7 = (K_235 : 1));
+                     
+                     loop 
+                     behavior default:
+                       invariant (K_238 : ((K_237 : (i_7 >= 0)) &&
+                                            (K_236 : (i_7 <=
+                                                       Deterrence_ATTACK_TYPES))));
+                     
+                     variant (K_239 : (Deterrence_ATTACK_TYPES - i_7));
+                     for ( ; (K_244 : (i_7 < Deterrence_ATTACK_TYPES)) ; 
+                     (K_243 : (i_7 ++)))
+                     {  (if (K_242 : ((K_241 : (averages + i_7).doubleP) >
+                                       largest)) then (largest = (K_240 : 
+                                                                 (averages +
+                                                                   i_7).doubleP)) else ())
+                     }
+                  }
+               };
+               
+               (return largest)
+            }
+         }
+      }
+   }
+}
+
+integer System_currentTimeMillis()
+;
+
+integer String_hashCode(String[0] this_78)
+;
+
+charM[0..] String_toCharArray(String[0] this_79)
+;
+
+unit PrintStream_print_int(PrintStream[0] this_80, integer i_8)
+;
+
+unit PrintStream_println(PrintStream[0] this_81)
+;
+
+unit System_setErr0(PrintStream[0..] err_0)
+;
+
+integer String_compareToIgnoreCase(String[0] this_82, String[0..] str)
+;
+
+unit PrintStream_println_long(PrintStream[0] this_83, integer x_3)
+;
+
+integer String_indexOf_String_int(String[0] this_84, String[0..] str_1,
+                                  integer fromIndex_1)
+;
+
+integer String_charAt(String[0] this_85, integer index_1)
+;
+
+boolean String_contentEquals(String[0] this_86, StringBuffer[0..] sb)
+;
+
+unit PrintStream_println_boolean(PrintStream[0] this_87, boolean x_0)
+;
+
+unit cons_PrintStream_boolean_OutputStream(! PrintStream[0] this_121,
+                                           boolean autoFlush,
+                                           OutputStream[0..] out_3)
+{  (this_121.autoFlush = false);
+   (this_121.trouble = false);
+   (this_121.closing = false)
+}
+
+unit OutputStream_close(OutputStream[0] this_88)
+;
+
+unit Object_wait(Object[0] this_89)
+;
+
+unit cons_Deterrence_int(! Deterrence[0] this_10, integer array_index)
+  requires (K_261 : ((K_260 : ((K_259 : ((K_258 : ((K_257 : states_initialised{Here}(
+                                                   Deterrence_states)) &&
+                                                    (K_256 : ((K_255 : 
+                                                              (0 <=
+                                                                array_index)) &&
+                                                               (K_254 : 
+                                                               (array_index <
+                                                                 Deterrence_numStates)))))) &&
+                                          (K_253 : ((K_252 : (0.0 <=
+                                                               Deterrence_IRRATIONAL_PROBABILITY)) &&
+                                                     (K_251 : (Deterrence_IRRATIONAL_PROBABILITY <=
+                                                                1.0)))))) &&
+                                (K_250 : ((K_249 : (0.0 <=
+                                                     Deterrence_ATTRIBUTION_PROBABILITY)) &&
+                                           (K_248 : (Deterrence_ATTRIBUTION_PROBABILITY <=
+                                                      1.0)))))) &&
+                      (K_247 : states_valid_up_to{Here}(Deterrence_states,
+                                                        array_index))));
+behavior default:
+  assigns this_10.value,
+  this_10.numIgnores,
+  this_10.numRetaliates,
+  this_10.retaliationTable,
+  this_10.index,
+  (Deterrence_states + [array_index..array_index]).DeterrenceP;
+  ensures (K_268 : ((K_267 : ((K_266 : ((K_265 : (this_10.index ==
+                                                   array_index)) &&
+                                         (K_264 : (this_10.value ==
+                                                    Deterrence_INITIAL_VALUE)))) &&
+                               (K_263 : states_initialised{Here}(Deterrence_states)))) &&
+                     (K_262 : states_valid_up_to{Here}(Deterrence_states,
+                                                       (array_index + 1)))));
+{  (this_10.index = 0);
+   (this_10.value = 0.0);
+   (this_10.numIgnores = null);
+   (this_10.numRetaliates = null);
+   (this_10.retaliationTable = null);
+   (K_270 : 
+   (assert (K_269 : (\forall integer i_20;
+                      (((i_20 >= 0) && (i_20 < array_index)) ==>
+                        ((Deterrence_states + i_20).DeterrenceP != this_10))))));
+   (K_272 : 
+   (assert (K_271 : states_valid_up_to{Here}(Deterrence_states, array_index))));
+   (K_273 : (this_10.value = Deterrence_INITIAL_VALUE));
+   (K_275 : 
+   (assert (K_274 : states_valid_up_to{Here}(Deterrence_states, array_index))));
+   (K_276 : (this_10.numIgnores = (new intM[Deterrence_ATTACK_TYPES])));
+   (K_278 : 
+   (assert (K_277 : states_valid_up_to{Here}(Deterrence_states, array_index))));
+   (K_279 : (this_10.numRetaliates = (new intM[Deterrence_ATTACK_TYPES])));
+   (K_281 : 
+   (assert (K_280 : states_valid_up_to{Here}(Deterrence_states, array_index))));
+   (K_282 : (this_10.retaliationTable = (new doubleM[Deterrence_ATTACK_TYPES])));
+   (K_284 : 
+   (assert (K_283 : states_valid_up_to{Here}(Deterrence_states, array_index))));
+   (K_286 : 
+   (assert (K_285 : (this_10.value == Deterrence_INITIAL_VALUE))));
+   
+   {  
+      {  
+         (var integer i_21 = (K_287 : 0));
+         
+         loop 
+         behavior default:
+           invariant (K_296 : ((K_295 : ((K_294 : ((K_293 : ((K_292 : 
+                                                             (\forall integer j_10;
+                                                               (((j_10 >= 0) &&
+                                                                  (j_10 <
+                                                                    i_21)) ==>
+                                                                 ((((this_10.numIgnores +
+                                                                    j_10).intP >=
+                                                                    1) &&
+                                                                    ((this_10.numRetaliates +
+                                                                    j_10).intP >=
+                                                                    1)) &&
+                                                                   ((0.0 <=
+                                                                    (this_10.retaliationTable +
+                                                                    j_10).doubleP) &&
+                                                                    ((this_10.retaliationTable +
+                                                                    j_10).doubleP <
+                                                                    1.0)))))) &&
+                                                              (K_291 : 
+                                                              (i_21 >=
+                                                                0)))) &&
+                                                    (K_290 : (i_21 <=
+                                                               Deterrence_ATTACK_TYPES)))) &&
+                                          (K_289 : states_valid_up_to{Here}(
+                                          Deterrence_states, array_index)))) &&
+                                (K_288 : states_initialised{Here}(Deterrence_states))));
+         
+         variant (K_297 : (Deterrence_ATTACK_TYPES - i_21));
+         for ( ; (K_314 : (i_21 < Deterrence_ATTACK_TYPES)) ; (K_313 : 
+                                                              (i_21 ++)))
+         {  
+            {  (K_299 : 
+               (assert (K_298 : states_valid_up_to{Here}(Deterrence_states,
+                                                         array_index))));
+               (K_302 : (((K_300 : this_10.retaliationTable) + i_21).doubleP = 
+               (K_301 : Deterrence_nextDouble())));
+               (K_304 : 
+               (assert (K_303 : states_valid_up_to{Here}(Deterrence_states,
+                                                         array_index))));
+               (K_306 : (((K_305 : this_10.numIgnores) + i_21).intP = 1));
+               (K_308 : 
+               (assert (K_307 : states_valid_up_to{Here}(Deterrence_states,
+                                                         array_index))));
+               (K_310 : (((K_309 : this_10.numRetaliates) + i_21).intP = 1));
+               (K_312 : 
+               (assert (K_311 : states_valid_up_to{Here}(Deterrence_states,
+                                                         array_index))))
+            }
+         }
+      }
+   };
+   (K_316 : 
+   (assert (K_315 : states_valid_up_to{Here}(Deterrence_states, array_index))));
+   (K_322 : 
+   (assert (K_321 : ((K_320 : ((K_319 : (this_10.value ==
+                                          Deterrence_INITIAL_VALUE)) &&
+                                (K_318 : states_initialised{Here}(Deterrence_states)))) &&
+                      (K_317 : states_valid_up_to{Here}(Deterrence_states,
+                                                        array_index))))));
+   (K_323 : (this_10.index = array_index));
+   (K_325 : ((Deterrence_states + (K_324 : this_10.index)).DeterrenceP = this_10));
+   (K_333 : 
+   (assert (K_332 : ((K_331 : ((K_330 : ((K_329 : (this_10.index ==
+                                                    array_index)) &&
+                                          (K_328 : (this_10.value ==
+                                                     Deterrence_INITIAL_VALUE)))) &&
+                                (K_327 : states_initialised{Here}(Deterrence_states)))) &&
+                      (K_326 : states_valid_up_to{Here}(Deterrence_states,
+                                                        array_index))))));
+   (K_335 : 
+   (assert (K_334 : state_valid{Here}(Deterrence_states, this_10,
+                                      this_10.index))));
+   (K_337 : 
+   (assert (K_336 : states_valid_up_to{Here}(Deterrence_states,
+                                             (array_index + 1)))))
+}
+
+String[0..] String_valueOf_Object(Object[0..] obj_1)
+;
+
+String[0..] String_replaceAll(String[0] this_90, String[0..] regex_1,
+                              String[0..] replacement_0)
+;
+
+unit PrintStream_print(PrintStream[0] this_91, integer c)
+;
+
+String[0..] String_valueOf_long(integer l_0)
+;
+
+integer CharSequence_charAt(Object/*interface*/[0..] this_92, integer index_0)
+;
+
+integer String_indexOf(charM[0..] source, integer sourceOffset,
+                       integer sourceCount, charM[0..] target_1,
+                       integer targetOffset, integer targetCount,
+                       integer fromIndex_2)
+;
+
+byteM[0..] String_getBytes_String(String[0] this_93,
+                                  String[0..] charsetName_1)
+;
+
+unit System_exit(integer status)
+;
+
+String[0..] String_copyValueOf_charA(charM[0..] data_2)
+;
+
+unit cons_PrintStream_OutputStream_boolean(! PrintStream[0] this_122,
+                                           OutputStream[0..] out_4,
+                                           boolean autoFlush_0)
+{  (this_122.autoFlush = false);
+   (this_122.trouble = false);
+   (this_122.closing = false)
+}
+
+unit PrintStream_println_char(PrintStream[0] this_94, integer x_1)
+;
+
+boolean Object_equals(Object[0] this_95, Object[0..] obj_0)
+;
+
+boolean String_endsWith(String[0] this_96, String[0..] suffix)
+;
+
+unit Deterrence_printStuff(real IRRATIONAL_PROBABILITY,
+                           real ATTRIBUTION_PROBABILITY)
+  requires (K_347 : ((K_346 : ((K_345 : states_valid{Here}(Deterrence_states)) &&
+                                (K_344 : ((K_343 : (0.0 <=
+                                                     IRRATIONAL_PROBABILITY)) &&
+                                           (K_342 : (IRRATIONAL_PROBABILITY <=
+                                                      1.0)))))) &&
+                      (K_341 : ((K_340 : (0.0 <= ATTRIBUTION_PROBABILITY)) &&
+                                 (K_339 : (ATTRIBUTION_PROBABILITY <= 1.0))))));
+behavior default:
+  assigns \nothing;
+  ensures (K_338 : true);
+{  (K_348 : PrintStream_print_double(System_out, IRRATIONAL_PROBABILITY));
+   (K_349 : PrintStream_print_String(System_out, any_string()));
+   (K_350 : PrintStream_print_double(System_out, ATTRIBUTION_PROBABILITY));
+   (K_351 : PrintStream_print_String(System_out, any_string()));
+   (K_353 : PrintStream_print_double(System_out,
+                                     (K_352 : Deterrence_getLargestAverage())));
+   (K_354 : PrintStream_println(System_out))
+}
+
+unit PrintStream_println_float(PrintStream[0] this_97, real x_4)
+;
+
+unit cons_String_byteA_int_int_String(! String[0] this_123,
+                                      byteM[0..] bytes_0, integer offset_2,
+                                      integer length_1,
+                                      String[0..] charsetName)
+{  (this_123.value = null);
+   (this_123.offset = 0);
+   (this_123.count = 0);
+   (this_123.hash = 0)
+}
+
+unit Deterrence_main(StringM[0..] args)
+  requires (K_355 : (Deterrence_RETALIATION_EFFECT >= 0.0));
+{  
+   {  
+      {  
+         (var integer att = (K_356 : 0));
+         
+         loop 
+         behavior default:
+           invariant (K_359 : ((K_358 : (0 <= att)) && (K_357 : (att <= 11))));
+         
+         variant (K_360 : (10 - att));
+         for ( ; (K_451 : (att <= 10)) ; (K_450 : (att ++)))
+         {  
+            {  (Deterrence_ATTRIBUTION_PROBABILITY = (K_361 : (att * 0.1)));
+               (K_365 : 
+               (assert (K_364 : ((K_363 : (0.0 <=
+                                            Deterrence_ATTRIBUTION_PROBABILITY)) &&
+                                  (K_362 : (Deterrence_ATTRIBUTION_PROBABILITY <=
+                                             1.0))))));
+               
+               {  
+                  {  
+                     (var integer irr = (K_366 : 0));
+                     
+                     loop 
+                     behavior default:
+                       invariant (K_369 : ((K_368 : (0 <= irr)) &&
+                                            (K_367 : (irr <= 11))));
+                     
+                     variant (K_370 : (10 - irr));
+                     for ( ; (K_449 : (irr <= 10)) ; (K_448 : (irr ++)))
+                     {  
+                        {  (Deterrence_IRRATIONAL_PROBABILITY = (K_371 : 
+                                                                (irr *
+                                                                  0.1)));
+                           (K_375 : 
+                           (assert (K_374 : ((K_373 : (0.0 <=
+                                                        Deterrence_IRRATIONAL_PROBABILITY)) &&
+                                              (K_372 : (Deterrence_IRRATIONAL_PROBABILITY <=
+                                                         1.0))))));
+                           (Deterrence_states = (new DeterrenceM[Deterrence_numStates]));
+                           (K_377 : 
+                           (assert (K_376 : states_initialised{Here}(
+                                   Deterrence_states))));
+                           
+                           {  
+                              {  
+                                 (var integer i_10 = (K_378 : 0));
+                                 
+                                 loop 
+                                 behavior default:
+                                   invariant (K_385 : ((K_384 : ((K_383 : 
+                                                                 ((K_382 : states_initialised{Here}(
+                                                                  Deterrence_states)) &&
+                                                                   (K_381 : states_valid_up_to{Here}(
+                                                                   Deterrence_states,
+                                                                   i_10)))) &&
+                                                                  (K_380 : 
+                                                                  (i_10 >=
+                                                                    0)))) &&
+                                                        (K_379 : (i_10 <=
+                                                                   Deterrence_numStates))));
+                                 
+                                 variant (K_386 : (Deterrence_numStates -
+                                                    i_10));
+                                 for ( ; (K_388 : (i_10 <
+                                                    Deterrence_numStates)) ; 
+                                 (K_387 : (i_10 ++)))
+                                 {  
+                                    {  
+                                       (var Deterrence[0] this = (new Deterrence[1]));
+                                       
+                                       {  
+                                          (var unit _tt = cons_Deterrence_int(
+                                          this, i_10));
+                                          this
+                                       }
+                                    }
+                                 }
+                              }
+                           };
+                           (K_390 : 
+                           (assert (K_389 : states_valid{Here}(Deterrence_states))));
+                           
+                           {  
+                              {  
+                                 (var integer turn = (K_391 : 0));
+                                 
+                                 loop 
+                                 behavior default:
+                                   invariant (K_392 : states_valid{Here}(
+                                             Deterrence_states));
+                                 
+                                 variant (K_393 : (Deterrence_numTurns -
+                                                    turn));
+                                 for ( ; (K_440 : (turn <
+                                                    Deterrence_numTurns)) ; 
+                                 (K_439 : (turn ++)))
+                                 {  
+                                    {  
+                                       {  
+                                          {  
+                                             (var integer i_11 = (K_394 : 0));
+                                             
+                                             loop 
+                                             behavior default:
+                                               invariant (K_399 : ((K_398 : 
+                                                                   ((K_397 : 
+                                                                    (i_11 >=
+                                                                    0)) &&
+                                                                    (K_396 : 
+                                                                    (i_11 <=
+                                                                    Deterrence_numStates)))) &&
+                                                                    (K_395 : states_valid{Here}(
+                                                                    Deterrence_states))));
+                                             
+                                             variant (K_400 : (Deterrence_numStates -
+                                                                i_11));
+                                             for ( ; (K_419 : (i_11 <
+                                                                Deterrence_numStates)) ; 
+                                             (K_418 : (i_11 ++)))
+                                             {  
+                                                {  (K_402 : ((K_401 : 
+                                                             (Deterrence_states +
+                                                               i_11).DeterrenceP).value = Deterrence_INITIAL_VALUE));
+                                                   
+                                                   {  
+                                                      {  
+                                                         (var integer j_3 = 
+                                                         (K_403 : 0));
+                                                         
+                                                         loop 
+                                                         behavior default:
+                                                           invariant 
+                                                           (K_408 : ((K_407 : 
+                                                                    ((K_406 : 
+                                                                    (j_3 >=
+                                                                    0)) &&
+                                                                    (K_405 : 
+                                                                    (j_3 <=
+                                                                    Deterrence_ATTACK_TYPES)))) &&
+                                                                    (K_404 : states_valid{Here}(
+                                                                    Deterrence_states))));
+                                                         
+                                                         variant (K_409 : 
+                                                                 (Deterrence_ATTACK_TYPES -
+                                                                   j_3));
+                                                         for ( ; (K_417 : 
+                                                                 (j_3 <
+                                                                   Deterrence_ATTACK_TYPES)) ; 
+                                                         (K_416 : (j_3 ++)))
+                                                         {  
+                                                            {  (K_412 : (
+                                                               ((K_411 : 
+                                                                (K_410 : 
+                                                                (Deterrence_states +
+                                                                  i_11).DeterrenceP).numIgnores) +
+                                                                 j_3).intP = 1));
+                                                               (K_415 : (
+                                                               ((K_414 : 
+                                                                (K_413 : 
+                                                                (Deterrence_states +
+                                                                  i_11).DeterrenceP).numRetaliates) +
+                                                                 j_3).intP = 1))
+                                                            }
+                                                         }
+                                                      }
+                                                   }
+                                                }
+                                             }
+                                          }
+                                       };
+                                       
+                                       {  
+                                          {  
+                                             (var integer step = (K_420 : 0));
+                                             
+                                             loop 
+                                             behavior default:
+                                               invariant (K_421 : states_valid{Here}(
+                                                         Deterrence_states));
+                                             
+                                             variant (K_422 : (Deterrence_turnLength -
+                                                                step));
+                                             for ( ; (K_435 : (step <
+                                                                Deterrence_turnLength)) ; 
+                                             (K_434 : (step ++)))
+                                             {  
+                                                {  
+                                                   {  
+                                                      (var integer i_12 = 
+                                                      (K_423 : 0));
+                                                      
+                                                      loop 
+                                                      behavior default:
+                                                        invariant (K_428 : 
+                                                                  ((K_427 : 
+                                                                   ((K_426 : 
+                                                                    (i_12 >=
+                                                                    0)) &&
+                                                                    (K_425 : 
+                                                                    (i_12 <=
+                                                                    Deterrence_numStates)))) &&
+                                                                    (K_424 : states_valid{Here}(
+                                                                    Deterrence_states))));
+                                                      
+                                                      variant (K_429 : 
+                                                              (Deterrence_numStates -
+                                                                i_12));
+                                                      for ( ; (K_433 : 
+                                                              (i_12 <
+                                                                Deterrence_numStates)) ; 
+                                                      (K_432 : (i_12 ++)))
+                                                      {  (K_431 : Deterrence_move(
+                                                         (K_430 : (Deterrence_states +
+                                                                    i_12).DeterrenceP)))
+                                                      }
+                                                   }
+                                                }
+                                             }
+                                          }
+                                       };
+                                       
+                                       {  
+                                          (var Deterrence[0..] worst = 
+                                          (K_438 : Deterrence_getWorst(
+                                          )));
+                                          
+                                          {  
+                                             (var Deterrence[0..] best = 
+                                             (K_437 : Deterrence_getBest(
+                                             )));
+                                             (K_436 : Deterrence_initialiseOffspring(
+                                             worst, worst, best))
+                                          }
+                                       }
+                                    }
+                                 }
+                              }
+                           };
+                           (K_442 : 
+                           (assert (K_441 : states_valid{Here}(Deterrence_states))));
+                           (K_444 : 
+                           (assert (K_443 : (Deterrence_IRRATIONAL_PROBABILITY ==
+                                              (irr * 0.1)))));
+                           (K_446 : 
+                           (assert (K_445 : (Deterrence_ATTRIBUTION_PROBABILITY ==
+                                              (att * 0.1)))));
+                           (K_447 : Deterrence_printStuff(Deterrence_IRRATIONAL_PROBABILITY,
+                                                          Deterrence_ATTRIBUTION_PROBABILITY))
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+String[0..] String_substring_int(String[0] this_98, integer beginIndex)
+;
+
+unit cons_String_charA(! String[0] this_124, charM[0..] value_1)
+{  (this_124.value = null);
+   (this_124.offset = 0);
+   (this_124.count = 0);
+   (this_124.hash = 0)
+}
+
+Object/*interface*/[0..] CharSequence_subSequence(Object/*interface*/[0..] this_99,
+                                                  integer start,
+                                                  integer end_0)
+;
+
+String[0..] CharSequence_toString(Object/*interface*/[0..] this_100)
+;
+
+unit PrintStream_setError(PrintStream[0] this_101)
+;
+
+String[0..] System_getenv(String[0..] name)
+;
+
+unit FilterOutputStream_close(FilterOutputStream[0] this_102)
+;
+
+unit FilterOutputStream_write_byteA(FilterOutputStream[0] this_103,
+                                    byteM[0..] b_5)
+;
+
+unit System_arraycopy(Object[0..] src, integer srcPos, Object[0..] dest,
+                      integer destPos, integer length)
+;
+
+unit cons_String(! String[0] this_125)
+{  (this_125.value = null);
+   (this_125.offset = 0);
+   (this_125.count = 0);
+   (this_125.hash = 0)
+}
+
+boolean String_regionMatches_boolean_int_String_int_int(String[0] this_104,
+                                                        boolean ignoreCase,
+                                                        integer toffset_0,
+                                                        String[0..] other_0,
+                                                        integer ooffset_0,
+                                                        integer len_3)
+;
+
+unit cons_String_byteA_int_int_int(! String[0] this_126, byteM[0..] ascii,
+                                   integer hibyte, integer offset_0,
+                                   integer count_0)
+{  (this_126.value = null);
+   (this_126.offset = 0);
+   (this_126.count = 0);
+   (this_126.hash = 0)
+}
+
+String[0..] String_valueOf(integer c_0)
+;
+
+unit PrintStream_println_int(PrintStream[0] this_105, integer x_2)
+;
+
+unit FilterOutputStream_write(FilterOutputStream[0] this_106, byteM[0..] b_6,
+                              integer off_0, integer len_0)
+;
+
+unit cons_System(! System[0] this_127){()}
+
+boolean String_regionMatches_int_String_int_int(String[0] this_107,
+                                                integer toffset,
+                                                String[0..] other,
+                                                integer ooffset,
+                                                integer len_2)
+;
+
+/*
+Local Variables:
+mode: java
+compile-command: "jessie -why-opt -split-user-conj -locs Deterrence.jloc Deterrence.jc && make -f Deterrence.makefile gui"
+End:
+*/

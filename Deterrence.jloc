@@ -1,0 +1,3903 @@
+[K_373]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 329
+begin = 23
+end = 52
+
+[K_327]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 197
+begin = 75
+end = 101
+
+[String_indexOf]
+name = "Method indexOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1257
+begin = 15
+end = 22
+
+[K_321]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 192
+begin = 15
+end = 115
+
+[OutputStream_flush]
+name = "Method flush"
+file = "/usr/local/lib/why/java_api/java/io/OutputStream.java"
+line = 115
+begin = 16
+end = 21
+
+[K_73]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 121
+begin = 14
+end = 23
+
+[K_285]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 175
+begin = 15
+end = 42
+
+[K_253]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 156
+begin = 6
+end = 42
+
+[K_417]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 359
+begin = 33
+end = 49
+
+[K_87]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 234
+begin = 14
+end = 26
+
+[K_375]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 329
+begin = 23
+end = 59
+
+[PrintStream_println_float]
+name = "Method println"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 541
+begin = 16
+end = 23
+
+[String_getChars]
+name = "Method getChars"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 481
+begin = 16
+end = 24
+
+[K_200]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 401
+begin = 15
+end = 35
+
+[Deterrence_chooseOpponent]
+name = "Method chooseOpponent"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 275
+begin = 21
+end = 35
+
+[K_78]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 120
+begin = 22
+end = 35
+
+[String_toCharArray]
+name = "Method toCharArray"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2123
+begin = 18
+end = 29
+
+[String_charAt]
+name = "Method charAt"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 444
+begin = 16
+end = 22
+
+[String_toLowerCase]
+name = "Method toLowerCase"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1904
+begin = 18
+end = 29
+
+[Object_finalize]
+name = "Method finalize"
+file = "/usr/local/lib/why/java_api/java/lang/Object.java"
+line = 481
+begin = 19
+end = 27
+
+[K_442]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 381
+begin = 23
+end = 43
+
+[K_402]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 355
+begin = 17
+end = 48
+
+[K_389]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 345
+begin = 23
+end = 43
+
+[System_load]
+name = "Method load"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 820
+begin = 23
+end = 27
+
+[PrintStream_println_int]
+name = "Method println"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 513
+begin = 16
+end = 23
+
+[K_261]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 155
+begin = 15
+end = 218
+
+[Object_wait]
+name = "Method wait"
+file = "/usr/local/lib/why/java_api/java/lang/Object.java"
+line = 430
+begin = 22
+end = 26
+
+[K_134]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 290
+begin = 6
+end = 18
+
+[K_146]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 304
+begin = 18
+end = 43
+
+[Object_notify]
+name = "Method notify"
+file = "/usr/local/lib/why/java_api/java/lang/Object.java"
+line = 243
+begin = 29
+end = 35
+
+[K_184]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 210
+begin = 25
+end = 147
+
+[System_registerNatives]
+name = "Method registerNatives"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 38
+begin = 31
+end = 46
+
+[K_212]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 413
+begin = 23
+end = 47
+
+[K_187]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 214
+begin = 23
+end = 39
+
+[K_318]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 192
+begin = 46
+end = 72
+
+[String_toUpperCase]
+name = "Method toUpperCase"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2056
+begin = 18
+end = 29
+
+[cons_Object]
+name = "Constructor of class Object"
+file = "/home/dmitrybrizhinev/cyber_formal/"
+line = 0
+begin = -1
+end = -1
+
+[String_trim]
+name = "Method trim"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2092
+begin = 18
+end = 22
+
+[K_405]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 356
+begin = 47
+end = 64
+
+[K_329]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 197
+begin = 15
+end = 40
+
+[System_setErr0]
+name = "Method setErr0"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 182
+begin = 31
+end = 38
+
+[K_181]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 210
+begin = 35
+end = 52
+
+[K_93]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 232
+begin = 15
+end = 59
+
+[K_380]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 338
+begin = 16
+end = 22
+
+[String_lastIndexOf_int]
+name = "Method lastIndexOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1167
+begin = 15
+end = 26
+
+[K_309]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 187
+begin = 3
+end = 19
+
+[K_391]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 350
+begin = 28
+end = 29
+
+[PrintStream_println_String]
+name = "Method println"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 583
+begin = 16
+end = 23
+
+[PrintStream_checkError]
+name = "Method checkError"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 188
+begin = 19
+end = 29
+
+[K_12]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 223
+begin = 14
+end = 56
+
+[K_365]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 322
+begin = 19
+end = 56
+
+[K_153]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 300
+begin = 18
+end = 64
+
+[K_360]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 318
+begin = 21
+end = 29
+
+[K_313]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 181
+begin = 36
+end = 39
+
+[cons_PrintStream_OutputStream_boolean_String]
+name = "Constructor of class PrintStream"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 113
+begin = 11
+end = 22
+
+[K_141]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 309
+begin = 3
+end = 42
+
+[K_416]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 359
+begin = 51
+end = 54
+
+[K_300]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 183
+begin = 6
+end = 25
+
+[K_20]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 221
+begin = 15
+end = 92
+
+[K_237]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 434
+begin = 23
+end = 29
+
+[K_145]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 311
+begin = 3
+end = 33
+
+[K_444]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 382
+begin = 23
+end = 58
+
+[K_59]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 110
+begin = 15
+end = 77
+
+[K_316]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 190
+begin = 15
+end = 54
+
+[K_227]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 416
+begin = 19
+end = 32
+
+[PrintStream_println_Object]
+name = "Method println"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 597
+begin = 16
+end = 23
+
+[K_368]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 324
+begin = 27
+end = 35
+
+[K_164]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 298
+begin = 6
+end = 57
+
+[K_167]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 80
+begin = 10
+end = 22
+
+[System_runFinalization]
+name = "Method runFinalization"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 768
+begin = 23
+end = 38
+
+[K_226]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 416
+begin = 34
+end = 37
+
+[K_367]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 324
+begin = 32
+end = 41
+
+[K_110]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 261
+begin = 40
+end = 43
+
+[K_292]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 177
+begin = 24
+end = 138
+
+[K_152]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 300
+begin = 18
+end = 43
+
+[K_118]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 269
+begin = 15
+end = 35
+
+[K_451]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 320
+begin = 22
+end = 31
+
+[K_175]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 204
+begin = 15
+end = 39
+
+[K_35]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 229
+begin = 42
+end = 73
+
+[K_6]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 142
+begin = 14
+end = 56
+
+[K_336]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 201
+begin = 15
+end = 58
+
+[K_328]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 197
+begin = 44
+end = 71
+
+[K_238]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 434
+begin = 23
+end = 50
+
+[Deterrence_expectedValue]
+name = "Method expectedValue"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 226
+begin = 23
+end = 36
+
+[K_263]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 160
+begin = 74
+end = 100
+
+[String_compareTo_Object]
+name = "Method compareTo"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 778
+begin = 15
+end = 24
+
+[K_289]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 178
+begin = 39
+end = 78
+
+[K_147]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 304
+begin = 4
+end = 43
+
+[K_150]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 305
+begin = 4
+end = 66
+
+[System_getenv]
+name = "Method getenv"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 700
+begin = 25
+end = 31
+
+[K_308]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 186
+begin = 17
+end = 56
+
+[Deterrence_nextDouble]
+name = "Method nextDouble"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 45
+begin = 24
+end = 34
+
+[cons_System]
+name = "Constructor of class System"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 44
+begin = 12
+end = 18
+
+[K_386]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 339
+begin = 29
+end = 42
+
+[K_358]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 317
+begin = 23
+end = 31
+
+[K_332]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 197
+begin = 15
+end = 144
+
+[K_105]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 249
+begin = 14
+end = 811
+
+[K_302]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 183
+begin = 6
+end = 40
+
+[K_79]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 113
+begin = 24
+end = 33
+
+[System_setOut0]
+name = "Method setOut0"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 181
+begin = 31
+end = 38
+
+[K_203]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 406
+begin = 23
+end = 29
+
+[K_429]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 369
+begin = 37
+end = 50
+
+[K_256]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 155
+begin = 45
+end = 73
+
+[K_163]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 298
+begin = 21
+end = 57
+
+[K_27]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 228
+begin = 111
+end = 155
+
+[K_158]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 302
+begin = 4
+end = 37
+
+[PrintStream_print_long]
+name = "Method print"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 389
+begin = 16
+end = 21
+
+[K_46]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 94
+begin = 26
+end = 91
+
+[K_216]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 418
+begin = 37
+end = 54
+
+[K_326]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 197
+begin = 105
+end = 144
+
+[K_151]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 306
+begin = 4
+end = 37
+
+[K_39]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 88
+begin = 15
+end = 90
+
+[String_regionMatches_int_String_int_int]
+name = "Method regionMatches"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 881
+begin = 19
+end = 32
+
+[K_348]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 393
+begin = 4
+end = 44
+
+[K_319]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 192
+begin = 15
+end = 42
+
+[K_126]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 276
+begin = 27
+end = 44
+
+[PrintStream_close]
+name = "Method close"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 152
+begin = 16
+end = 21
+
+[K_123]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 278
+begin = 10
+end = 30
+
+[K_428]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 368
+begin = 39
+end = 87
+
+[K_293]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 177
+begin = 23
+end = 158
+
+[K_291]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 178
+begin = 8
+end = 14
+
+[Object_notifyAll]
+name = "Method notifyAll"
+file = "/usr/local/lib/why/java_api/java/lang/Object.java"
+line = 267
+begin = 29
+end = 38
+
+[K_243]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 437
+begin = 37
+end = 40
+
+[String_valueOf_charA]
+name = "Method valueOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2152
+begin = 25
+end = 32
+
+[cons_String_byteA_int]
+name = "Constructor of class String"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 275
+begin = 11
+end = 17
+
+[K_88]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 234
+begin = 14
+end = 41
+
+[K_388]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 341
+begin = 28
+end = 41
+
+[K_54]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 100
+begin = 32
+end = 43
+
+[K_413]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 361
+begin = 18
+end = 27
+
+[K_199]
+file = "/home/dmitrybrizhinev/cyber_formal/"
+line = 0
+begin = -1
+end = -1
+
+[String_replace]
+name = "Method replace"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1546
+begin = 18
+end = 25
+
+[K_331]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 197
+begin = 15
+end = 101
+
+[K_171]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 70
+begin = 10
+end = 42
+
+[System_nullPrintStream]
+name = "Method nullPrintStream"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 873
+begin = 31
+end = 46
+
+[cons_String_byteA_int_int_String]
+name = "Constructor of class String"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 316
+begin = 11
+end = 17
+
+[K_76]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 121
+begin = 14
+end = 42
+
+[PrintStream_print_float]
+name = "Method print"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 403
+begin = 16
+end = 21
+
+[K_245]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 433
+begin = 21
+end = 32
+
+[K_225]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 417
+begin = 27
+end = 36
+
+[PrintStream_println_double]
+name = "Method println"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 555
+begin = 16
+end = 23
+
+[K_281]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 171
+begin = 15
+end = 54
+
+[K_183]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 210
+begin = 25
+end = 52
+
+[System_gc]
+name = "Method gc"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 746
+begin = 23
+end = 25
+
+[PrintStream_print_String]
+name = "Method print"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 444
+begin = 16
+end = 21
+
+[K_406]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 356
+begin = 37
+end = 43
+
+[K_208]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 409
+begin = 19
+end = 35
+
+[K_311]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 188
+begin = 17
+end = 56
+
+[cons_String_byteA_int_int_int]
+name = "Constructor of class String"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 234
+begin = 11
+end = 17
+
+[K_18]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 221
+begin = 15
+end = 44
+
+[Deterrence_highestExpectedValue]
+name = "Method highestExpectedValue"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 245
+begin = 14
+end = 34
+
+[K_299]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 182
+begin = 17
+end = 56
+
+[K_74]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 121
+begin = 14
+end = 29
+
+[String_split_String]
+name = "Method split"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1792
+begin = 20
+end = 25
+
+[K_40]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 88
+begin = 14
+end = 174
+
+[K_432]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 371
+begin = 50
+end = 53
+
+[K_422]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 365
+begin = 33
+end = 50
+
+[PrintStream_write_charA]
+name = "Method write"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 277
+begin = 17
+end = 22
+
+[K_148]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 305
+begin = 22
+end = 47
+
+[K_436]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 378
+begin = 16
+end = 54
+
+[K_231]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 426
+begin = 23
+end = 50
+
+[cons_String_charA_int_int]
+name = "Constructor of class String"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 189
+begin = 11
+end = 17
+
+[K_343]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 389
+begin = 39
+end = 68
+
+[K_179]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 212
+begin = 11
+end = 91
+
+[K_257]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 155
+begin = 15
+end = 41
+
+[K_106]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 259
+begin = 23
+end = 39
+
+[K_30]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 228
+begin = 11
+end = 156
+
+[PrintStream_init]
+name = "Method init"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 75
+begin = 17
+end = 21
+
+[K_215]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 418
+begin = 58
+end = 72
+
+[K_182]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 210
+begin = 25
+end = 31
+
+[Deterrence_mutate]
+name = "Method mutate"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 69
+begin = 24
+end = 30
+
+[String_equalsIgnoreCase]
+name = "Method equalsIgnoreCase"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 681
+begin = 19
+end = 35
+
+[K_427]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 368
+begin = 39
+end = 63
+
+[K_49]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 94
+begin = 25
+end = 231
+
+[String_split_String_int]
+name = "Method split"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1750
+begin = 20
+end = 25
+
+[PrintStream_write_int]
+name = "Method write"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 223
+begin = 16
+end = 21
+
+[FilterOutputStream_write]
+name = "Method write"
+file = "/usr/local/lib/why/java_api/java/io/FilterOutputStream.java"
+line = 103
+begin = 16
+end = 21
+
+[Deterrence_printStuff]
+name = "Method printStuff"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 392
+begin = 22
+end = 32
+
+[K_176]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 209
+begin = 6
+end = 27
+
+[cons_String_byteA_String]
+name = "Constructor of class String"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 345
+begin = 11
+end = 17
+
+[String_valueOf_long]
+name = "Method valueOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2257
+begin = 25
+end = 32
+
+[K_190]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 217
+begin = 46
+end = 67
+
+[K_189]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 217
+begin = 46
+end = 67
+
+[K_9]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 140
+begin = 15
+end = 44
+
+[K_364]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 322
+begin = 19
+end = 56
+
+[PrintStream_print_charA]
+name = "Method print"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 431
+begin = 16
+end = 21
+
+[K_71]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 118
+begin = 23
+end = 36
+
+[PrintStream_print]
+name = "Method print"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 361
+begin = 16
+end = 21
+
+[K_195]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 217
+begin = 32
+end = 106
+
+[K_132]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 293
+begin = 15
+end = 45
+
+[K_264]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 160
+begin = 43
+end = 70
+
+[K_219]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 418
+begin = 27
+end = 72
+
+[PrintStream_print_int]
+name = "Method print"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 375
+begin = 16
+end = 21
+
+[K_97]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 258
+begin = 24
+end = 41
+
+[String_valueOf_float]
+name = "Method valueOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2271
+begin = 25
+end = 32
+
+[K_204]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 406
+begin = 23
+end = 50
+
+[K_159]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 299
+begin = 7
+end = 19
+
+[cons_FilterOutputStream_OutputStream]
+name = "Constructor of class FilterOutputStream"
+file = "/usr/local/lib/why/java_api/java/io/FilterOutputStream.java"
+line = 43
+begin = 11
+end = 29
+
+[K_168]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 80
+begin = 10
+end = 28
+
+[String_checkBounds]
+name = "Method checkBounds"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 283
+begin = 24
+end = 35
+
+[FilterOutputStream_close]
+name = "Method close"
+file = "/usr/local/lib/why/java_api/java/io/FilterOutputStream.java"
+line = 138
+begin = 16
+end = 21
+
+[K_274]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 167
+begin = 15
+end = 54
+
+[PrintStream_flush]
+name = "Method flush"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 132
+begin = 16
+end = 21
+
+[K_109]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 262
+begin = 14
+end = 68
+
+[K_392]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 347
+begin = 31
+end = 51
+
+[K_267]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 160
+begin = 14
+end = 100
+
+[String_regionMatches_boolean_int_String_int_int]
+name = "Method regionMatches"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 950
+begin = 19
+end = 32
+
+[OutputStream_write]
+name = "Method write"
+file = "/usr/local/lib/why/java_api/java/io/OutputStream.java"
+line = 45
+begin = 25
+end = 30
+
+[K_414]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 361
+begin = 18
+end = 41
+
+[Deterrence_getWorst]
+name = "Method getWorst"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 91
+begin = 28
+end = 36
+
+[Object_wait_long_int]
+name = "Method wait"
+file = "/usr/local/lib/why/java_api/java/lang/Object.java"
+line = 386
+begin = 22
+end = 26
+
+[K_312]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 188
+begin = 17
+end = 56
+
+[K_241]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 438
+begin = 12
+end = 23
+
+[K_382]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 336
+begin = 16
+end = 42
+
+[cons_PrintStream_boolean_OutputStream]
+name = "Constructor of class PrintStream"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 67
+begin = 12
+end = 23
+
+[K_209]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 416
+begin = 16
+end = 17
+
+[System_setProperty]
+name = "Method setProperty"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 656
+begin = 25
+end = 36
+
+[K_81]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 43
+begin = 14
+end = 28
+
+[String_getBytes]
+name = "Method getBytes"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 591
+begin = 18
+end = 26
+
+[K_166]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 77
+begin = 14
+end = 42
+
+[K_230]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 426
+begin = 23
+end = 29
+
+[K_58]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 92
+begin = 25
+end = 34
+
+[K_297]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 179
+begin = 21
+end = 37
+
+[K_131]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 283
+begin = 14
+end = 63
+
+[K_250]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 157
+begin = 6
+end = 43
+
+[K_2]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 52
+begin = 14
+end = 26
+
+[K_242]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 438
+begin = 12
+end = 33
+
+[String_lastIndexOf]
+name = "Method lastIndexOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1333
+begin = 15
+end = 26
+
+[K_322]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 192
+begin = 15
+end = 115
+
+[K_224]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 421
+begin = 23
+end = 39
+
+[K_47]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 94
+begin = 25
+end = 177
+
+[K_278]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 169
+begin = 15
+end = 54
+
+[K_99]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 254
+begin = 15
+end = 347
+
+[K_10]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 145
+begin = 15
+end = 28
+
+[K_338]
+file = "/home/dmitrybrizhinev/cyber_formal/"
+line = 0
+begin = -1
+end = -1
+
+[System_getProperty_String]
+name = "Method getProperty"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 575
+begin = 25
+end = 36
+
+[K_379]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 338
+begin = 26
+end = 40
+
+[K_255]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 155
+begin = 45
+end = 61
+
+[System_setOut]
+name = "Method setOut"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 146
+begin = 23
+end = 29
+
+[System_runFinalizersOnExit]
+name = "Method runFinalizersOnExit"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 797
+begin = 23
+end = 42
+
+[String_copyValueOf_charA_int_int]
+name = "Method copyValueOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2191
+begin = 25
+end = 36
+
+[K_8]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 140
+begin = 15
+end = 29
+
+[K_206]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 410
+begin = 8
+end = 25
+
+[K_3]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 52
+begin = 14
+end = 41
+
+[K_351]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 396
+begin = 4
+end = 26
+
+[K_66]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 116
+begin = 26
+end = 78
+
+[String_copyValueOf_charA]
+name = "Method copyValueOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2204
+begin = 25
+end = 36
+
+[K_323]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 194
+begin = 4
+end = 28
+
+[String_toString]
+name = "Method toString"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2112
+begin = 18
+end = 26
+
+[K_396]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 351
+begin = 45
+end = 59
+
+[K_393]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 348
+begin = 29
+end = 44
+
+[String_substring_int]
+name = "Method substring"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1414
+begin = 18
+end = 27
+
+[String_equals]
+name = "Method equals"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 608
+begin = 19
+end = 25
+
+[String_substring_int_int]
+name = "Method substring"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1440
+begin = 18
+end = 27
+
+[K_415]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 361
+begin = 18
+end = 48
+
+[String_compareToIgnoreCase]
+name = "Method compareToIgnoreCase"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 846
+begin = 15
+end = 34
+
+[System_identityHashCode]
+name = "Method identityHashCode"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 389
+begin = 29
+end = 45
+
+[String_valueOf_double]
+name = "Method valueOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2285
+begin = 25
+end = 32
+
+[String_lastIndexOf_String]
+name = "Method lastIndexOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1315
+begin = 15
+end = 26
+
+[K_340]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 389
+begin = 79
+end = 109
+
+[K_390]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 345
+begin = 23
+end = 43
+
+[PrintStream_println_long]
+name = "Method println"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 527
+begin = 16
+end = 23
+
+[K_233]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 429
+begin = 37
+end = 40
+
+[K_75]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 121
+begin = 32
+end = 42
+
+[K_14]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 221
+begin = 67
+end = 92
+
+[PrintStream_write_String]
+name = "Method write"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 299
+begin = 17
+end = 22
+
+[K_445]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 383
+begin = 23
+end = 59
+
+[String_lastIndexOf_int_int]
+name = "Method lastIndexOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1194
+begin = 15
+end = 26
+
+[K_100]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 249
+begin = 15
+end = 348
+
+[FilterOutputStream_write_int]
+name = "Method write"
+file = "/usr/local/lib/why/java_api/java/io/FilterOutputStream.java"
+line = 59
+begin = 16
+end = 21
+
+[K_57]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 99
+begin = 22
+end = 35
+
+[K_357]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 317
+begin = 28
+end = 37
+
+[K_201]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 409
+begin = 16
+end = 17
+
+[K_197]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 216
+begin = 40
+end = 43
+
+[K_84]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 240
+begin = 15
+end = 367
+
+[K_119]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 277
+begin = 17
+end = 43
+
+[K_249]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 157
+begin = 6
+end = 36
+
+[K_211]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 413
+begin = 23
+end = 29
+
+[K_424]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 368
+begin = 67
+end = 87
+
+[K_399]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 351
+begin = 35
+end = 83
+
+[K_65]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 117
+begin = 25
+end = 31
+
+[K_394]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 354
+begin = 28
+end = 29
+
+[K_443]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 382
+begin = 23
+end = 58
+
+[K_301]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 183
+begin = 28
+end = 40
+
+[cons_String_charA]
+name = "Constructor of class String"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 167
+begin = 11
+end = 17
+
+[K_371]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 328
+begin = 37
+end = 46
+
+[K_272]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 165
+begin = 15
+end = 54
+
+[K_19]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 221
+begin = 15
+end = 63
+
+[K_83]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 46
+begin = 11
+end = 19
+
+[K_5]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 55
+begin = 11
+end = 16
+
+[FilterOutputStream_write_byteA]
+name = "Method write"
+file = "/usr/local/lib/why/java_api/java/io/FilterOutputStream.java"
+line = 79
+begin = 16
+end = 21
+
+[K_448]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 327
+begin = 37
+end = 42
+
+[K_374]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 329
+begin = 23
+end = 59
+
+[OutputStream_write_byteA]
+name = "Method write"
+file = "/usr/local/lib/why/java_api/java/io/OutputStream.java"
+line = 57
+begin = 16
+end = 21
+
+[K_77]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 120
+begin = 37
+end = 40
+
+[K_223]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 421
+begin = 41
+end = 44
+
+[PrintStream_println_char]
+name = "Method println"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 499
+begin = 16
+end = 23
+
+[K_395]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 351
+begin = 63
+end = 83
+
+[K_51]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 101
+begin = 22
+end = 31
+
+[K_94]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 261
+begin = 19
+end = 20
+
+[K_298]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 182
+begin = 17
+end = 56
+
+[String_length]
+name = "Method length"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 427
+begin = 15
+end = 21
+
+[K_425]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 368
+begin = 49
+end = 63
+
+[PrintStream_print_Object]
+name = "Method print"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 461
+begin = 16
+end = 21
+
+[K_419]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 354
+begin = 31
+end = 44
+
+[K_162]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 298
+begin = 21
+end = 57
+
+[Object_hashCode]
+name = "Method hashCode"
+file = "/usr/local/lib/why/java_api/java/lang/Object.java"
+line = 74
+begin = 22
+end = 30
+
+[K_341]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 389
+begin = 79
+end = 116
+
+[K_282]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 172
+begin = 4
+end = 47
+
+[K_239]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 435
+begin = 21
+end = 37
+
+[K_192]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 217
+begin = 69
+end = 90
+
+[K_279]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 170
+begin = 4
+end = 41
+
+[K_381]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 337
+begin = 16
+end = 45
+
+[String_indexOf_String]
+name = "Method indexOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1221
+begin = 15
+end = 22
+
+[K_248]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 157
+begin = 13
+end = 43
+
+[K_23]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 228
+begin = 11
+end = 39
+
+[String_compareTo_String]
+name = "Method compareTo"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 728
+begin = 15
+end = 24
+
+[K_447]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 384
+begin = 12
+end = 71
+
+[K_437]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 377
+begin = 34
+end = 43
+
+[K_108]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 262
+begin = 41
+end = 68
+
+[K_446]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 383
+begin = 23
+end = 59
+
+[K_217]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 418
+begin = 27
+end = 33
+
+[K_411]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 360
+begin = 18
+end = 38
+
+[K_337]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 201
+begin = 15
+end = 58
+
+[K_113]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 273
+begin = 14
+end = 57
+
+[String_getBytes_int_int_byteA_int]
+name = "Method getBytes"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 532
+begin = 16
+end = 24
+
+[K_324]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 195
+begin = 11
+end = 21
+
+[System_checkIO]
+name = "Method checkIO"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 175
+begin = 24
+end = 31
+
+[K_135]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 290
+begin = 6
+end = 43
+
+[K_11]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 224
+begin = 6
+end = 155
+
+[Deterrence_nextInt]
+name = "Method nextInt"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 54
+begin = 21
+end = 28
+
+[K_353]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 397
+begin = 4
+end = 41
+
+[K_310]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 187
+begin = 3
+end = 23
+
+[K_38]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 89
+begin = 15
+end = 77
+
+[K_385]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 336
+begin = 16
+end = 137
+
+[System_mapLibraryName]
+name = "Method mapLibraryName"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 857
+begin = 32
+end = 46
+
+[K_13]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 223
+begin = 14
+end = 216
+
+[System_arraycopy]
+name = "Method arraycopy"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 374
+begin = 30
+end = 39
+
+[K_133]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 291
+begin = 15
+end = 36
+
+[K_64]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 117
+begin = 35
+end = 49
+
+[K_287]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 181
+begin = 15
+end = 16
+
+[K_160]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 299
+begin = 7
+end = 45
+
+[K_140]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 309
+begin = 17
+end = 42
+
+[K_377]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 333
+begin = 23
+end = 49
+
+[K_418]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 354
+begin = 46
+end = 49
+
+[K_320]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 192
+begin = 15
+end = 72
+
+[K_210]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 413
+begin = 33
+end = 47
+
+[K_400]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 352
+begin = 33
+end = 46
+
+[cons_String_String]
+name = "Constructor of class String"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 142
+begin = 11
+end = 17
+
+[K_143]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 310
+begin = 21
+end = 62
+
+[K_304]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 184
+begin = 17
+end = 56
+
+[K_270]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 164
+begin = 16
+end = 78
+
+[K_156]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 301
+begin = 22
+end = 66
+
+[K_86]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 234
+begin = 19
+end = 41
+
+[PrintStream_println]
+name = "Method println"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 474
+begin = 16
+end = 23
+
+[cons_String_int_int_charA]
+name = "Constructor of class String"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 413
+begin = 4
+end = 10
+
+[K_129]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 283
+begin = 38
+end = 63
+
+[FilterOutputStream_flush]
+name = "Method flush"
+file = "/usr/local/lib/why/java_api/java/io/FilterOutputStream.java"
+line = 122
+begin = 16
+end = 21
+
+[String_startsWith_String]
+name = "Method startsWith"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1038
+begin = 19
+end = 29
+
+[K_52]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 100
+begin = 14
+end = 23
+
+[K_440]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 350
+begin = 31
+end = 46
+
+[K_294]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 177
+begin = 23
+end = 179
+
+[K_15]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 221
+begin = 48
+end = 63
+
+[Comparable_compareTo]
+name = "Method compareTo"
+file = "/usr/local/lib/why/java_api/java/lang/Comparable.java"
+line = 121
+begin = 15
+end = 24
+
+[CharSequence_subSequence]
+name = "Method subSequence"
+file = "/usr/local/lib/why/java_api/java/lang/CharSequence.java"
+line = 75
+begin = 17
+end = 28
+
+[System_currentTimeMillis]
+name = "Method currentTimeMillis"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 280
+begin = 30
+end = 47
+
+[K_423]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 371
+begin = 32
+end = 33
+
+[K_260]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 155
+begin = 15
+end = 168
+
+[K_259]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 155
+begin = 15
+end = 120
+
+[K_398]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 351
+begin = 35
+end = 59
+
+[K_111]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 261
+begin = 22
+end = 38
+
+[String_subSequence]
+name = "Method subSequence"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1482
+begin = 24
+end = 35
+
+[K_376]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 333
+begin = 23
+end = 49
+
+[String_valueOf_int]
+name = "Method valueOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2243
+begin = 25
+end = 32
+
+[K_121]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 279
+begin = 10
+end = 18
+
+[K_433]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 371
+begin = 35
+end = 48
+
+[cons_String]
+name = "Constructor of class String"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 129
+begin = 11
+end = 17
+
+[K_218]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 418
+begin = 27
+end = 54
+
+[K_303]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 184
+begin = 17
+end = 56
+
+[K_161]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 298
+begin = 6
+end = 18
+
+[K_112]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 246
+begin = 17
+end = 18
+
+[K_275]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 167
+begin = 15
+end = 54
+
+[K_85]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 235
+begin = 15
+end = 368
+
+[K_401]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 355
+begin = 17
+end = 26
+
+[K_252]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 156
+begin = 6
+end = 35
+
+[K_236]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 434
+begin = 33
+end = 50
+
+[K_124]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 280
+begin = 13
+end = 27
+
+[K_307]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 186
+begin = 17
+end = 56
+
+[K_234]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 429
+begin = 19
+end = 35
+
+[K_125]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 276
+begin = 27
+end = 40
+
+[K_50]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 97
+begin = 23
+end = 36
+
+[K_157]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 301
+begin = 4
+end = 66
+
+[K_149]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 305
+begin = 22
+end = 66
+
+[K_315]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 190
+begin = 15
+end = 54
+
+[K_198]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 216
+begin = 22
+end = 38
+
+[K_450]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 320
+begin = 33
+end = 38
+
+[K_280]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 171
+begin = 15
+end = 54
+
+[K_271]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 165
+begin = 15
+end = 54
+
+[PrintStream_print_boolean]
+name = "Method print"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 349
+begin = 16
+end = 21
+
+[K_72]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 122
+begin = 21
+end = 30
+
+[K_449]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 327
+begin = 26
+end = 35
+
+[K_421]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 364
+begin = 35
+end = 55
+
+[String_matches]
+name = "Method matches"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1600
+begin = 19
+end = 26
+
+[K_420]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 367
+begin = 32
+end = 33
+
+[K_266]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 160
+begin = 14
+end = 70
+
+[K_244]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 437
+begin = 19
+end = 35
+
+[K_144]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 310
+begin = 3
+end = 62
+
+[K_67]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 115
+begin = 26
+end = 90
+
+[K_438]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 376
+begin = 35
+end = 45
+
+[K_288]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 178
+begin = 82
+end = 108
+
+[K_122]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 278
+begin = 20
+end = 30
+
+[K_333]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 197
+begin = 15
+end = 144
+
+[K_305]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 185
+begin = 3
+end = 16
+
+[cons_PrintStream_OutputStream_boolean]
+name = "Constructor of class PrintStream"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 92
+begin = 11
+end = 22
+
+[K_62]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 107
+begin = 15
+end = 35
+
+[K_277]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 169
+begin = 15
+end = 54
+
+[K_115]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 271
+begin = 14
+end = 29
+
+[System_getProperty_String_String]
+name = "Method getProperty"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 614
+begin = 25
+end = 36
+
+[PrintStream_write_byteA_int_int]
+name = "Method write"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 254
+begin = 16
+end = 21
+
+[K_32]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 229
+begin = 11
+end = 39
+
+[K_410]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 360
+begin = 18
+end = 27
+
+[Deterrence_getBest]
+name = "Method getBest"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 112
+begin = 28
+end = 35
+
+[K_346]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 389
+begin = 15
+end = 75
+
+[K_188]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 217
+begin = 10
+end = 29
+
+[K_42]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 99
+begin = 19
+end = 20
+
+[K_207]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 409
+begin = 37
+end = 40
+
+[K_387]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 341
+begin = 43
+end = 46
+
+[K_355]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 315
+begin = 15
+end = 40
+
+[K_240]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 439
+begin = 22
+end = 33
+
+[cons_PrintStream_OutputStream]
+name = "Constructor of class PrintStream"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 55
+begin = 11
+end = 22
+
+[K_431]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 372
+begin = 24
+end = 40
+
+[K_258]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 155
+begin = 15
+end = 73
+
+[K_251]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 156
+begin = 13
+end = 42
+
+[K_69]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 115
+begin = 25
+end = 211
+
+[System_setErr]
+name = "Method setErr"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 170
+begin = 23
+end = 29
+
+[K_412]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 360
+begin = 18
+end = 45
+
+[K_286]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 175
+begin = 15
+end = 42
+
+[String_contentEquals]
+name = "Method contentEquals"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 640
+begin = 19
+end = 32
+
+[cons_Deterrence_int]
+name = "Constructor of class Deterrence"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 163
+begin = 9
+end = 19
+
+[K_37]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 227
+begin = 9
+end = 269
+
+[K_220]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 419
+begin = 25
+end = 41
+
+[PrintStream_print_double]
+name = "Method print"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 417
+begin = 16
+end = 21
+
+[K_430]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 372
+begin = 24
+end = 33
+
+[K_434]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 367
+begin = 54
+end = 60
+
+[K_114]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 272
+begin = 14
+end = 46
+
+[cons_OutputStream]
+name = "Constructor of class OutputStream"
+file = "/home/dmitrybrizhinev/cyber_formal/"
+line = 0
+begin = -1
+end = -1
+
+[K_142]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 310
+begin = 21
+end = 46
+
+[K_269]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 164
+begin = 16
+end = 78
+
+[K_127]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 276
+begin = 19
+end = 45
+
+[K_361]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 321
+begin = 34
+end = 43
+
+[String_concat]
+name = "Method concat"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1506
+begin = 18
+end = 24
+
+[K_363]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 322
+begin = 19
+end = 49
+
+[Object_equals]
+name = "Method equals"
+file = "/usr/local/lib/why/java_api/java/lang/Object.java"
+line = 122
+begin = 19
+end = 25
+
+[K_174]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 204
+begin = 15
+end = 25
+
+[String_indexOf_int]
+name = "Method indexOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1102
+begin = 15
+end = 22
+
+[K_92]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 232
+begin = 15
+end = 30
+
+[K_104]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 249
+begin = 14
+end = 788
+
+[K_61]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 109
+begin = 14
+end = 174
+
+[String_hashCode]
+name = "Method hashCode"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1070
+begin = 15
+end = 23
+
+[K_180]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 211
+begin = 11
+end = 89
+
+[K_139]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 296
+begin = 15
+end = 44
+
+[CharSequence_length]
+name = "Method length"
+file = "/usr/local/lib/why/java_api/java/lang/CharSequence.java"
+line = 40
+begin = 8
+end = 14
+
+[cons_String_byteA]
+name = "Constructor of class String"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 391
+begin = 11
+end = 17
+
+[K_362]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 322
+begin = 26
+end = 56
+
+[K_177]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 216
+begin = 19
+end = 20
+
+[K_91]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 232
+begin = 34
+end = 59
+
+[K_16]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 221
+begin = 20
+end = 44
+
+[K_426]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 368
+begin = 39
+end = 45
+
+[String_replaceAll]
+name = "Method replaceAll"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1666
+begin = 18
+end = 28
+
+[K_155]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 301
+begin = 22
+end = 47
+
+[K_221]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 422
+begin = 27
+end = 52
+
+[CharSequence_charAt]
+name = "Method charAt"
+file = "/usr/local/lib/why/java_api/java/lang/CharSequence.java"
+line = 56
+begin = 9
+end = 15
+
+[K_193]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 217
+begin = 39
+end = 91
+
+[K_96]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 258
+begin = 45
+end = 54
+
+[K_372]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 329
+begin = 30
+end = 59
+
+[K_137]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 296
+begin = 15
+end = 29
+
+[K_33]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 229
+begin = 11
+end = 39
+
+[K_222]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 422
+begin = 27
+end = 52
+
+[K_170]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 70
+begin = 10
+end = 22
+
+[PrintStream_setError]
+name = "Method setError"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 199
+begin = 19
+end = 27
+
+[K_441]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 381
+begin = 23
+end = 43
+
+[K_107]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 262
+begin = 14
+end = 38
+
+[K_101]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 249
+begin = 14
+end = 729
+
+[String_intern]
+name = "Method intern"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2313
+begin = 25
+end = 31
+
+[K_70]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 115
+begin = 25
+end = 229
+
+[K_273]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 166
+begin = 4
+end = 25
+
+[K_95]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 258
+begin = 58
+end = 77
+
+[String_valueOf_boolean]
+name = "Method valueOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2216
+begin = 25
+end = 32
+
+[K_154]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 300
+begin = 4
+end = 64
+
+[K_17]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 221
+begin = 15
+end = 29
+
+[K_325]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 195
+begin = 4
+end = 29
+
+[Object_wait_long]
+name = "Method wait"
+file = "/usr/local/lib/why/java_api/java/lang/Object.java"
+line = 333
+begin = 29
+end = 33
+
+[K_268]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 160
+begin = 14
+end = 154
+
+[K_173]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 204
+begin = 29
+end = 39
+
+[K_25]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 228
+begin = 42
+end = 73
+
+[K_128]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 284
+begin = 14
+end = 34
+
+[K_60]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 109
+begin = 15
+end = 90
+
+[K_404]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 356
+begin = 68
+end = 88
+
+[K_345]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 389
+begin = 15
+end = 35
+
+[K_185]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 210
+begin = 25
+end = 244
+
+[K_80]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 43
+begin = 32
+end = 45
+
+[K_366]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 327
+begin = 23
+end = 24
+
+[K_205]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 407
+begin = 21
+end = 37
+
+[K_44]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 96
+begin = 25
+end = 31
+
+[Object_clone]
+name = "Method clone"
+file = "/usr/local/lib/why/java_api/java/lang/Object.java"
+line = 184
+begin = 28
+end = 33
+
+[K_28]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 228
+begin = 77
+end = 155
+
+[K_130]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 283
+begin = 14
+end = 34
+
+[K_397]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 351
+begin = 35
+end = 41
+
+[K_228]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 429
+begin = 16
+end = 17
+
+[K_68]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 115
+begin = 25
+end = 175
+
+[K_1]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 52
+begin = 30
+end = 41
+
+[K_370]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 325
+begin = 25
+end = 33
+
+[K_283]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 173
+begin = 15
+end = 54
+
+[K_214]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 421
+begin = 20
+end = 21
+
+[System_nullInputStream]
+name = "Method nullInputStream"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 865
+begin = 31
+end = 46
+
+[cons_String_byteA_int_int]
+name = "Constructor of class String"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 371
+begin = 11
+end = 17
+
+[K_344]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 389
+begin = 39
+end = 75
+
+[System_loadLibrary]
+name = "Method loadLibrary"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 843
+begin = 23
+end = 34
+
+[K_4]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 50
+begin = 15
+end = 20
+
+[K_247]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 158
+begin = 6
+end = 45
+
+[Deterrence_attackStrength]
+name = "Method attackStrength"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 144
+begin = 20
+end = 34
+
+[K_342]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 389
+begin = 46
+end = 75
+
+[K_334]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 199
+begin = 15
+end = 52
+
+[OutputStream_close]
+name = "Method close"
+file = "/usr/local/lib/why/java_api/java/io/OutputStream.java"
+line = 128
+begin = 16
+end = 21
+
+[Deterrence_choice]
+name = "Method choice"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 79
+begin = 24
+end = 30
+
+[K_55]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 100
+begin = 14
+end = 43
+
+[K_408]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 356
+begin = 37
+end = 88
+
+[K_356]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 320
+begin = 19
+end = 20
+
+[K_169]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 67
+begin = 14
+end = 50
+
+[K_34]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 229
+begin = 42
+end = 73
+
+[OutputStream_write_byteA_int_int]
+name = "Method write"
+file = "/usr/local/lib/why/java_api/java/io/OutputStream.java"
+line = 89
+begin = 16
+end = 21
+
+[Deterrence_main]
+name = "Method main"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 316
+begin = 21
+end = 25
+
+[K_284]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 173
+begin = 15
+end = 54
+
+[Object_registerNatives]
+name = "Method registerNatives"
+file = "/usr/local/lib/why/java_api/java/lang/Object.java"
+line = 22
+begin = 31
+end = 46
+
+[K_194]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 217
+begin = 93
+end = 105
+
+[K_403]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 359
+begin = 30
+end = 31
+
+[String_indexOf_String_int]
+name = "Method indexOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1239
+begin = 15
+end = 22
+
+[K_63]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 120
+begin = 19
+end = 20
+
+[Deterrence_move]
+name = "Method move"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 286
+begin = 14
+end = 18
+
+[String_valueOf_Object]
+name = "Method valueOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2138
+begin = 25
+end = 32
+
+[K_232]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 427
+begin = 21
+end = 37
+
+[K_117]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 271
+begin = 14
+end = 142
+
+[String_endsWith]
+name = "Method endsWith"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1053
+begin = 19
+end = 27
+
+[K_314]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 181
+begin = 18
+end = 34
+
+[K_165]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 287
+begin = 24
+end = 40
+
+[K_53]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 100
+begin = 14
+end = 29
+
+[K_439]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 350
+begin = 48
+end = 54
+
+[K_229]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 426
+begin = 33
+end = 50
+
+[K_41]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 86
+begin = 15
+end = 35
+
+[String_getBytes_String]
+name = "Method getBytes"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 572
+begin = 18
+end = 26
+
+[K_306]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 185
+begin = 3
+end = 20
+
+[K_89]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 234
+begin = 14
+end = 415
+
+[K_29]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 228
+begin = 42
+end = 156
+
+[K_407]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 356
+begin = 37
+end = 64
+
+[K_296]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 177
+begin = 23
+end = 252
+
+[K_138]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 296
+begin = 15
+end = 44
+
+[K_339]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 389
+begin = 86
+end = 116
+
+[K_330]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 197
+begin = 15
+end = 71
+
+[K_98]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 258
+begin = 14
+end = 20
+
+[K_254]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 155
+begin = 50
+end = 73
+
+[K_178]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 213
+begin = 11
+end = 91
+
+[System_exit]
+name = "Method exit"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 724
+begin = 23
+end = 27
+
+[String_indexOf_int_int]
+name = "Method indexOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1134
+begin = 15
+end = 22
+
+[K_186]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 210
+begin = 25
+end = 341
+
+[K_262]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 161
+begin = 6
+end = 49
+
+[K_48]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 94
+begin = 25
+end = 213
+
+[String_valueOf_charA_int_int]
+name = "Method valueOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2177
+begin = 25
+end = 32
+
+[K_354]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 398
+begin = 4
+end = 24
+
+[K_335]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 199
+begin = 15
+end = 52
+
+[K_384]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 336
+begin = 16
+end = 119
+
+[K_383]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 336
+begin = 16
+end = 92
+
+[String_startsWith_String_int]
+name = "Method startsWith"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1007
+begin = 19
+end = 29
+
+[K_102]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 249
+begin = 14
+end = 754
+
+[String_lastIndexOf_charA_int_int_charA_int_int_int]
+name = "Method lastIndexOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1351
+begin = 15
+end = 26
+
+[K_196]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 217
+begin = 10
+end = 106
+
+[K_31]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 227
+begin = 9
+end = 193
+
+[PrintStream_println_charA]
+name = "Method println"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 569
+begin = 16
+end = 23
+
+[K_352]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 397
+begin = 21
+end = 40
+
+[K_295]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 177
+begin = 23
+end = 222
+
+[PrintStream_newLine]
+name = "Method newLine"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 318
+begin = 17
+end = 24
+
+[K_409]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 357
+begin = 35
+end = 51
+
+[Deterrence_initialiseOffspring]
+name = "Method initialiseOffspring"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 208
+begin = 15
+end = 34
+
+[CharSequence_toString]
+name = "Method toString"
+file = "/usr/local/lib/why/java_api/java/lang/CharSequence.java"
+line = 84
+begin = 18
+end = 26
+
+[K_21]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 227
+begin = 9
+end = 34
+
+[K_369]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 324
+begin = 27
+end = 41
+
+[K_24]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 228
+begin = 42
+end = 73
+
+[K_172]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 206
+begin = 14
+end = 36
+
+[K_56]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 99
+begin = 37
+end = 40
+
+[String_valueOf]
+name = "Method valueOf"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 2228
+begin = 25
+end = 32
+
+[K_120]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 277
+begin = 17
+end = 43
+
+[K_36]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 229
+begin = 11
+end = 73
+
+[System_initializeSystemClass]
+name = "Method initializeSystemClass"
+file = "/usr/local/lib/why/java_api/java/lang/System.java"
+line = 882
+begin = 24
+end = 45
+
+[String_replaceFirst]
+name = "Method replaceFirst"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 1633
+begin = 18
+end = 30
+
+[PrintStream_println_boolean]
+name = "Method println"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 485
+begin = 16
+end = 23
+
+[K_103]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 249
+begin = 14
+end = 775
+
+[K_82]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 43
+begin = 14
+end = 45
+
+[K_350]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 395
+begin = 4
+end = 45
+
+[K_317]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 192
+begin = 76
+end = 115
+
+[K_265]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 160
+begin = 14
+end = 39
+
+[K_213]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 414
+begin = 21
+end = 34
+
+[K_290]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 178
+begin = 18
+end = 35
+
+[K_202]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 406
+begin = 33
+end = 50
+
+[K_116]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 271
+begin = 14
+end = 80
+
+[PrintStream_ensureOpen]
+name = "Method ensureOpen"
+file = "/usr/local/lib/why/java_api/java/io/PrintStream.java"
+line = 121
+begin = 17
+end = 27
+
+[K_276]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 168
+begin = 4
+end = 38
+
+[K_435]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 367
+begin = 35
+end = 52
+
+[K_347]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 389
+begin = 15
+end = 116
+
+[K_235]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 437
+begin = 16
+end = 17
+
+[cons_String_StringBuffer]
+name = "Constructor of class String"
+file = "/usr/local/lib/why/java_api/java/lang/String.java"
+line = 403
+begin = 11
+end = 17
+
+[Deterrence_getLargestAverage]
+name = "Method getLargestAverage"
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 404
+begin = 24
+end = 41
+
+[K_136]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 296
+begin = 20
+end = 44
+
+[K_349]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 394
+begin = 4
+end = 26
+
+[K_246]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 405
+begin = 25
+end = 50
+
+[K_191]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 217
+begin = 69
+end = 90
+
+[K_7]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 140
+begin = 20
+end = 44
+
+[K_359]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 317
+begin = 23
+end = 37
+
+[K_90]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 234
+begin = 14
+end = 790
+
+[K_26]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 228
+begin = 78
+end = 107
+
+[Object_toString]
+name = "Method toString"
+file = "/usr/local/lib/why/java_api/java/lang/Object.java"
+line = 207
+begin = 18
+end = 26
+
+[K_378]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 341
+begin = 25
+end = 26
+
+[K_22]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 228
+begin = 11
+end = 39
+
+[K_45]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 95
+begin = 26
+end = 79
+
+[K_43]
+file = "/home/dmitrybrizhinev/cyber_formal/Deterrence.java"
+line = 96
+begin = 35
+end = 49
+
